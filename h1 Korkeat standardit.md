@@ -1,8 +1,9 @@
 # Kotitehtävät
 
-Kotitehtävät ovat kurssille "Sovellusten hakkerointi ja haavoittuvuudet - Application Hacking" ja löytyvät osoitteesta https://terokarvinen.com/application-hacking/#laksyt
+Kotitehtävät ovat kurssilta "Sovellusten hakkerointi ja haavoittuvuudet - Application Hacking" ja löytyvät osoitteesta https://terokarvinen.com/application-hacking/#laksyt
 
 ### a) Tutustu kurssin sanastoon, joka on määritelty SFS-EN ISO/IEC 27000:2020:en standardissa, kappaleessa 3. Terms and Definitions. Selvitä seuraavien kappaleiden määritteet ja selitä omin sanoin mitä ne tarkoittavat: 3.2, 3.31, 3.56, 3.58, 3.77. (Ei edellytä teknisiä testejä tietokoneella)
+
 **3.2 attack**
   - Kaikessa yksinkertaisuudessaan pyrkimys päästä käsiksi resursseihin ilman lupaa - joko tuhoamalla,     
    paljastamalla jotain tietoa, muuttamalla tai varastamalla sitä.. tai kaikkia näitä yhdessä.
@@ -40,22 +41,30 @@ Yriykset voivat ja niiden kannattaa hyödyntää tätä standardia saamaan sovel
 
 Väittämät:
 
-1. Mikään ohjelmisto ei ole täysin tietoturvallinen
+**1. Mikään ohjelmisto ei ole täysin tietoturvallinen**
+
 Olen väittämän kanssa samaa mieltä, kuin podcastissa. Vaikka uusi ohjelmisto voisi olla hetken aikaa murtamaton, ei se tarkoita sitä, että se olisi täysin tietoturvallinen. Aina on jokin porsaanreikä tai aukko, jota on mahdollista hyödyntää.
 
-2. Hallinnollinen tietoturva on teknisen tietoturvan onnistumisen edellytys
+**2. Hallinnollinen tietoturva on teknisen tietoturvan onnistumisen edellytys**
 
 Edelleen samaa mieltä. Mikä edes on teknisen tietoturvan merkitys, jos hallinnollinen tietoturva ei ole siinä pohjana? Molemmat yhdessä toimivat, mutta kumpikaan ei toimi yksinään. Toki aina pitää muistaa, että yhden hengen yrityksellä on eri hallinnollisen tietoturvan tarpeet, mutta kyllä siihenkin on hyvä määrittää pohja.
 
-3. Automaatiotestaus on ohjelmiston tietoturvan kannalta erittäin tärkeää
+**3. Automaatiotestaus on ohjelmiston tietoturvan kannalta erittäin tärkeää**
 
 Mitä enemmän voidaan automaatiolla testata, sitä vähemmän se teettää työtä. Jos sitä pystytään automaatiolla testaamaan, onhan se huomattavasti nopeampi keino. Sanoisin, että automaatiotestaus on hyvä kevyiden haavoittuvuuksien karsintaan ja varmasti poistaa suurimman osan pelkistä 'kokeiluista' ohjelmistoon. Kuten podissakin mainittiin, siihen voidaan luottaa liian sokeasti ja unohtaa se automaatiolla tehty testaus, joka ei kuitenkaan jokaista aukkoa pysty tarkistamaan. Joten pidän sitä erittäin tärkeänä, mutta ei pidä unohdaa muita menetelmiä.
 
-4. Ohjelmistoa suunnitellessa voidaan tehdä paljonkin auttamaan käyttäjiä toimimaan tietoturvallisesti. Usein nämä toimenpiteet kuitenkin vaikuttavat negatiivisesti käytettävyyteen.
+**4. Ohjelmistoa suunnitellessa voidaan tehdä paljonkin auttamaan käyttäjiä toimimaan tietoturvallisesti. Usein nämä toimenpiteet kuitenkin vaikuttavat negatiivisesti käytettävyyteen.**
 
 Eipä tähän lisättävää. Se yleensä vaikuttaa negatiivisesti, mutta se usein auttaa ohjaamaan käyttäjiä oikeaan suuntaan. On tärkeää, että ohjelmisto suunnitellaan niin, ettei käyttäjä joutuisi tunnin työllä kirjautumaan sisään, mutta on tärkeä varmistaa myös tietoturva-aspektit.
 
-5. 
+**5. Ohjelmiston tietoturvallisuuden suunnitteluun vaikuttaa paljolti se, kuinka arkaluontoisia tietoja ohjelmistolla on tarkoitus käsitellä**
 
+Osaltaan se vaikuttaa, mutta paljolti? Kuten podissa mainittiin - jos suunnittelun jättää vain sen varaan, voi olla liiketoiminnalle haitallista jos tietoturva on suunniteltu pelkästään arkaluontoisia tietoja silmällä pitäen. Arkaluontoiset tiedot kuitenkin pitää ottaa huomioon ja niiden suojaaminen nykypäivänä on erittäin tärkeää. 
+
+**6. Ohjelmistokehittäjät näkevät omat ohjelmistonsa aina merkittävästi riskialttiimpina kuin muiden tekemät ohjelmistot**
+
+En missään määrin ole ohjelmistokehittämisen parissa ollut, mutta voin kuvitella tämän molemmat puolet. Vertaisin ehkä tätä ihan käytännön elämään, jossa vaikkapa muistiipanoja tehdessä voi olla kriittisempi ja tunnistaa helpommin ne omat aukkonsa sekä tietää niiden puuttellisuuden, kuin muiden tekemien muistiinpanojen parissa. Kuitenkin syvällisemmin ajateltuna, oman ohjelmistonsa kehittäjä voi tulla sokeaksi omiin töihinsä, jolloin se ei välttämättä pidä paikkaansa.
 
 ### d) Asenna Debian 12-Bookworm virtuaalikoneeseen. Päivitä kaikki ohjelmat. (Poikkeuksellisesti tätä alakohtaa ei tarvitse raportoida, paitsi jos jokin ei toimi. Ympäristö tarvitaan seuraavalle oppitunnille. Joten tämän kohdan vastaukseksi riittää kuittaus, että Linux on asennettu.)
+
+Asennettu on!
