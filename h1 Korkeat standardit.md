@@ -44,9 +44,18 @@ Väittämät:
 Olen väittämän kanssa samaa mieltä, kuin podcastissa. Vaikka uusi ohjelmisto voisi olla hetken aikaa murtamaton, ei se tarkoita sitä, että se olisi täysin tietoturvallinen. Aina on jokin porsaanreikä tai aukko, jota on mahdollista hyödyntää.
 
 2. Hallinnollinen tietoturva on teknisen tietoturvan onnistumisen edellytys
-Edelleen samaa mieltä. Toki 
 
+Edelleen samaa mieltä. Mikä edes on teknisen tietoturvan merkitys, jos hallinnollinen tietoturva ei ole siinä pohjana? Molemmat yhdessä toimivat, mutta kumpikaan ei toimi yksinään. Toki aina pitää muistaa, että yhden hengen yrityksellä on eri hallinnollisen tietoturvan tarpeet, mutta kyllä siihenkin on hyvä määrittää pohja.
 
+3. Automaatiotestaus on ohjelmiston tietoturvan kannalta erittäin tärkeää
+
+Mitä enemmän voidaan automaatiolla testata, sitä vähemmän se teettää työtä. Jos sitä pystytään automaatiolla testaamaan, onhan se huomattavasti nopeampi keino. Sanoisin, että automaatiotestaus on hyvä kevyiden haavoittuvuuksien karsintaan ja varmasti poistaa suurimman osan pelkistä 'kokeiluista' ohjelmistoon. Kuten podissakin mainittiin, siihen voidaan luottaa liian sokeasti ja unohtaa se automaatiolla tehty testaus, joka ei kuitenkaan jokaista aukkoa pysty tarkistamaan. Joten pidän sitä erittäin tärkeänä, mutta ei pidä unohdaa muita menetelmiä.
+
+4. Ohjelmistoa suunnitellessa voidaan tehdä paljonkin auttamaan käyttäjiä toimimaan tietoturvallisesti. Usein nämä toimenpiteet kuitenkin vaikuttavat negatiivisesti käytettävyyteen.
+
+Eipä tähän lisättävää. Se yleensä vaikuttaa negatiivisesti, mutta se usein auttaa ohjaamaan käyttäjiä oikeaan suuntaan. On tärkeää, että ohjelmisto suunnitellaan niin, ettei käyttäjä joutuisi tunnin työllä kirjautumaan sisään, mutta on tärkeä varmistaa myös tietoturva-aspektit.
+
+5. 
 
 
 ### d) Asenna Debian 12-Bookworm virtuaalikoneeseen. Päivitä kaikki ohjelmat. (Poikkeuksellisesti tätä alakohtaa ei tarvitse raportoida, paitsi jos jokin ei toimi. Ympäristö tarvitaan seuraavalle oppitunnille. Joten tämän kohdan vastaukseksi riittää kuittaus, että Linux on asennettu.)
