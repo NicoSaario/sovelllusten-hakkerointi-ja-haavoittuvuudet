@@ -10,12 +10,15 @@ Kotitehtävät ovat kurssille "Sovellusten hakkerointi ja haavoittuvuudet - Appl
   - Yksi tai useampi tapahtuma liittyen mahdolliseen tietoturvaloukkaukseen tai muuhun turvallisuuden kannalta merkittävään seikkaan,
     jolla on todennäköisyys vaarantaa liiketoimintaa ja uhata tietoturvaa
   - Viitataan oikeastaan kaikkiin kohtiin, jotka jollain tavalla iittyy tietoturvaan ja sen vaarantumiseen.
+
 **3.56 requirement**
   -  Voi olla joko määritelty vaatimus dokumentoituihin tietoihin tai rivien välistä luettava tarve tai odotus, joka on yhteinen tai vakiintunut ja jota kaikkien pitäisi noudattaa.
   -  Hyvänä esimerkkinä vaikkapa se, että viimeinen henkilö työpaikalta lähtiessä varmistaa tilojen sulkemiset ja valojen sammuttamisen - tähän toki yleensä ohjeistetaan, mutta kaikki tietävät sen olevan viimeisen lähtevän tehtävä.
+
  **3.58 review**
   - Toiminta, jolla arvioidaan kohteen sille asetettujen vaatimusten ja tavoitteiden täyttyminen. 
     Varmistaa siis sen, että suunnitellut toiminnot toteutuvat. Ne voivat olla pitkän tai lyhyen aikavälin       suunnitelmia tai tehtäviä.
+
  **3.77 vulnerability**
   - Heikkous resurssissa tai hallinnassa, jota yksi tai useampi uhka voi hyödyntää
 
