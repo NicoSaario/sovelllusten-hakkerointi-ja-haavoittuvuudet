@@ -1,2 +1,2 @@
-# sovelllusten-hakkerointi-ja-haavoittuvuudet
+# sovellusten-hakkerointi-ja-haavoittuvuudet
 Kotitehtävät kurssiin liittyen
