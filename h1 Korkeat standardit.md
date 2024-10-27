@@ -38,4 +38,15 @@ Yriykset voivat ja niiden kannattaa hyödyntää tätä standardia saamaan sovel
 
 ### c) Kuuntele podcast: Meurman 2021: Laatulöpinät 30: Tietoturvallisuus ohjelmistokehityksessä (jakson mp3, Laatolöpinät RSS-syöte). Mitä mieltä olet podcastin väittämistä? (Ei edellytä teknisiä testejä tietokoneella)
 
+Väittämät:
+
+1. Mikään ohjelmisto ei ole täysin tietoturvallinen
+Olen väittämän kanssa samaa mieltä, kuin podcastissa. Vaikka uusi ohjelmisto voisi olla hetken aikaa murtamaton, ei se tarkoita sitä, että se olisi täysin tietoturvallinen. Aina on jokin porsaanreikä tai aukko, jota on mahdollista hyödyntää.
+
+2. Hallinnollinen tietoturva on teknisen tietoturvan onnistumisen edellytys
+Edelleen samaa mieltä. Toki 
+
+
+
+
 ### d) Asenna Debian 12-Bookworm virtuaalikoneeseen. Päivitä kaikki ohjelmat. (Poikkeuksellisesti tätä alakohtaa ei tarvitse raportoida, paitsi jos jokin ei toimi. Ympäristö tarvitaan seuraavalle oppitunnille. Joten tämän kohdan vastaukseksi riittää kuittaus, että Linux on asennettu.)
