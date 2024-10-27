@@ -7,6 +7,7 @@ Kotitehtävät ovat kurssilta "Sovellusten hakkerointi ja haavoittuvuudet - Appl
 **3.2 attack**
   - Kaikessa yksinkertaisuudessaan pyrkimys päästä käsiksi resursseihin ilman lupaa - joko tuhoamalla,     
    paljastamalla jotain tietoa, muuttamalla tai varastamalla sitä.. tai kaikkia näitä yhdessä.
+
 **3.31 information security incident**
   - Yksi tai useampi tapahtuma liittyen mahdolliseen tietoturvaloukkaukseen tai muuhun turvallisuuden kannalta merkittävään seikkaan,
     jolla on todennäköisyys vaarantaa liiketoimintaa ja uhata tietoturvaa
