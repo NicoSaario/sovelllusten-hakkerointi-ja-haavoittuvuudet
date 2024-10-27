@@ -69,3 +69,10 @@ En missään määrin ole ohjelmistokehittämisen parissa ollut, mutta voin kuvi
 ### d) Asenna Debian 12-Bookworm virtuaalikoneeseen. Päivitä kaikki ohjelmat. (Poikkeuksellisesti tätä alakohtaa ei tarvitse raportoida, paitsi jos jokin ei toimi. Ympäristö tarvitaan seuraavalle oppitunnille. Joten tämän kohdan vastaukseksi riittää kuittaus, että Linux on asennettu.)
 
 Asennettu on!
+
+
+### Lähteet
+
+- Laatulöpinät-podcast: Tietoturvallisuus ohjelmistokehityksessä – Tarkastele kokonaisuutta ja hyödynnä viitekehykset, Julkaistu 25.10.2021, Kuunneltavissa: https://www.arter.fi/podcast/laatulopinat-podcast-tietoturvallisuus-ohjelmistokehityksessa-tarkastele-kokonaisuutta-ja-hyodynna-viitekehykset/ (Kuunneltu 27.10.2024)
+
+- Kurssilla jaettu ISO - materiaali
