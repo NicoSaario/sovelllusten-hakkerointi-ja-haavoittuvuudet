@@ -1,10 +1,11 @@
 # Kotitehtävät
 Kotitehtävät ovat kurssilta "Sovellusten hakkerointi ja haavoittuvuudet - Application Hacking" ja löytyvät osoitteesta https://terokarvinen.com/application-hacking/#laksyt
+
 Kotitehtävät on tehty Windows 11 - Home - käyttöjärjestelmällä, päivitykset ajettu 3/11/2024 asti.
 
 AMD Ryzen 5 4500U, RAM 8 Gt.
 
-Aika: Itä-Euroopan normaaliaika Aikavyöhyke: Suomi (UTC+2) 12/05/2024 (pvm/kk/v)
+Aika: Itä-Euroopan normaaliaika Aikavyöhyke: Suomi (UTC+2) 3/11/2024 (pvm/kk/v)
 
 Oracle VM VirtualBox ja Debian 12 Bookworm
 
