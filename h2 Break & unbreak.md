@@ -107,4 +107,16 @@ AND password = ''
 ```
 Se palauttaa käyttäjänimen administrator ja kirjautuu sisään käytännössä ilman salasanaa
 
+- On myös mahdollista hakea tietoa muista paikoista tietokannan sisältä, käyttämällä 'UNION':
 
+```
+SELECT name, description
+FROM products WHERE
+category = 'Gifts' UNION
+SELECT username, password
+FROM users--
+```
+
+Miten niitä haavoittuvuuksia löydetään?
+- Voi testata erilaisilla skannereilla, jotka on tehty sitä varten
+- Syöttää manuaalisesti esim. ```'``` ```' OR 1=1--```, ```ASCII(97)```, ``` '; waitfor delay ('0:0:20')--```
