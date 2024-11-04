@@ -51,6 +51,31 @@ Karvinen 2023: Find Hidden Web Directories - Fuzz URLs with ffuf https://terokar
 
 PortSwigger: Access control vulnerabilities and privilege escalation https://portswigger.net/web-security/access-control
 
+Pääsynvalvonta (Access Control) - lyhykäisyydessään rajoitetaan se, kuka tai mikä omaa oikeudet suorittaa toimenpiteitä tai päästä käsiksi resursseihin
+- Authentication
+* Varmistaa käyttäjän olevan se, kenen pitäisi olla
+- Session Management
+* Määrittää käyttäjän myöhemmät HTTP-pyynnöt
+- Access control
+* Määrittää, sallitaanko käyttäjän tehdä ne toimenpiteet, joita hän yrittää tehdä
+
+!HOX HOX
+Isoin riski koko operaatiossa on se, että ihmisten on tehtävä suunnittelupäätökset tämän ympärille, joten virhemarginaali on suuri
+
+1. Vertical Access Controls
+   - Mekanismi joka rajoittaa pääsyä arkaluontoisiin toimintoihin tietyille käyttäjätyypeille
+   - Eri käyttäjillä on pääsy eri toimintoihin - Admin poistaa tai hallinnoi käyttäjiä, tavallinen user ei
+   - Broken Access Control - Pääsee kiinni toimintoon, johon ei lupaa! Esim. Ylläpitosivu
+     
+ 2. Horizontal Access Controls
+   - Rajoittaa pääsyn resursseihin tietyille käyttäjille
+   - Tietyillä käyttäjillä on pääsy vain osaan saman tyyppisistä resursseista - Admin voi tarkastella kaikien käyttäjien tekemiä töitä, user vain ommiaan
+   - Broken Access Control - Käsiksi muiden resurrseihin - user1 näkee user2 kotiosoitteen ja maksutavan sekä pankkikortin tiedot tai vaikkapa jonkin suojatun päiväkirjan
+ 
+3. Context-dependent access controls
+   - Rajoittaa pääsyä toimintoihin ja resursseihin tilan tai käyttäjän vuorovaikutuksen perusteella
+   - Estää käyttäjiä suorittamasta toimintoja väärässä järjestyksessä - Verkkokauppa voi estää käyttäjiä muokkaamasta ostoskoriaan maksun jälkeen
+
 Karvinen 2006: Raportin kirjoittaminen https://terokarvinen.com/2006/raportin-kirjoittaminen-4/
 
 Vapaaehtoinen: PortSwigger 2020: What is SQL injection? - Web Security Academy (noin 10 min video) https://www.youtube.com/watch?v=wX6tszfgYp4
