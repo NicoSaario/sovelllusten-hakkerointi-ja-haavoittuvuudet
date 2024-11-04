@@ -241,6 +241,17 @@ Itselläni ei tähän kyllä tarvittavia työkaluja ole vielä, joten kysyin Cop
 - Vastauksena oli, että tämä ```sql = "SELECT password FROM pins WHERE pin='"+pin+"';"```pitäisi vaihtaa tähän ```res = db.sessios.execute("SELECT password FROM pins WHERE pin=:pin", {'pin': pin})```
 - Koko sivu ei nyt toimi, joten periaatteessa koko juttu on korjattu - ei vain oikealla tavalla. Pitää opiskella lisää ja palata tähän myöhemmin
 
+- Päätin vain copy-pasteta koko homman kerralla sisään ja kysyin, mitä siellä vaihdettiin
+- Vastauksena oli tämä:
+- <img width="724" alt="image" src="https://github.com/user-attachments/assets/cb31a171-72a3-4c47-b52d-47e31b2892a1">
+
+- Ja ilmeisesti se korjaa ongelman, jossa yhdistettiin käyttäjän syöte eli pin suoraan SQL-kyselyyn. Kun käytetään (:pin), varsinainen pin-arvo välitetään erikseen ja se käsitellään datana eikä koodina, jolloin se estää injektiohyökkäykset
+
+<img width="911" alt="image" src="https://github.com/user-attachments/assets/ef21ad88-d91d-4170-80c7-3c2e74e5d111">
+
+Nopeesti testattuna näytti, ettei samaa ongelmaa ainakaan näytä olevan. Tein tismalleen samalla menetelmällä, jolla aikaisemmin ja kenttään tuli (not found). Kokeilin myös suoraan URLiin syöttämistä - ei toiminut.
+
+
 
 
 
