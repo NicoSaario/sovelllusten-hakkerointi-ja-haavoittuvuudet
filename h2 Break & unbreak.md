@@ -226,6 +226,14 @@ Hetken lueskeltuani https://portswigger.net/web-security/sql-injection/union-att
 Se palautti arvoksi
 <img width="701" alt="image" src="https://github.com/user-attachments/assets/c5ca9507-9230-4303-a958-329e74e526e1">
 
+Kävin samalla tutkimassa tuon staff-only.py - tiedoston ja sieltä löysinkin seuraavan:
+
+<img width="944" alt="image" src="https://github.com/user-attachments/assets/d113f7d9-1df4-4d0f-a868-273428bba736">
+
+Eli salasanan olis saanu myös kokeilemalla vaan yleisimpiä salasanoja/Pin-koodeja 
+
+<img width="907" alt="image" src="https://github.com/user-attachments/assets/ed47b400-f0e5-4d8e-a9bb-7f2dbc60fc8e">
+
 
 
 
