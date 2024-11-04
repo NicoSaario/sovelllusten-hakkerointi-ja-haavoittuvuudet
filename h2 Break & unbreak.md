@@ -220,10 +220,12 @@ AND password = ''
 Takaisin piirrustuspöydälle -- 
 
 Hetken lueskeltuani https://portswigger.net/web-security/sql-injection/union-attacks#using-a-sql-injection-union-attack-to-retrieve-interesting-data ja konsultoituani tekoälyä (ChatGPT), päädyin seuraavaan komentoon (muutaman mutkan ja variaation jälkeen)
-![Näyttökuva 2024-11-04 221956](https://github.com/user-attachments/assets/e0448b88-daca-475d-afb8-38a610260401)
+![Näyttökuva 2024-11-05 004316](https://github.com/user-attachments/assets/9c30c94a-904e-486c-84ce-dfe853ae16e9)
+
 
 Se palautti arvoksi
 <img width="701" alt="image" src="https://github.com/user-attachments/assets/c5ca9507-9230-4303-a958-329e74e526e1">
+
 
 
 
