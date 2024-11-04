@@ -145,3 +145,51 @@ FROM users--
 Miten niitä haavoittuvuuksia löydetään?
 - Voi testata erilaisilla skannereilla, jotka on tehty sitä varten
 - Syöttää manuaalisesti esim. ```'``` ```' OR 1=1--```, ```ASCII(97)```, ``` '; waitfor delay ('0:0:20')--```
+
+a) Murtaudu 010-staff-only. Ks. Karvinen 2024: Hack'n Fix https://terokarvinen.com/hack-n-fix/
+
+Tein tossa hyvän tovin, raportoin aikani ja jäin sitten pohtimaan vähän pidemmäksi aikaa tehtävän tekoa ja raportti lensi jonnekin bittiavaruuteen. Nyt tulee siis suppeampi versio tapahtumista:
+
+Eli Hack'n Fix ohjeiden mukaan
+
+```
+$ sudo apt-get update
+$ sudo apt-get -y install wget unzip micro
+```
+
+```
+$ wget https://terokarvinen.com/hack-n-fix/teros-challenges.zip
+$ unzip teros-challenges.zip
+```
+
+```
+$ cd challenges/010-staff-only/
+$ python3 staff-only.py
+from flask import Flask, render_template, request # sudo apt-get install python3-flask
+ModuleNotFoundError: No module named 'flask'
+```
+
+```
+$ sudo apt-get -y install python3-flask python3-flask-sqlalchemy
+
+$ python3 staff-only.py
+WARNING: Purposefully VULNERABLE APP!
+ * Serving Flask app 'staff-only'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+```
+![Näyttökuva 2024-11-04 195307](https://github.com/user-attachments/assets/4a3de8f4-d72c-4a55-aff3-9d60c8805bf2)
+
+![Näyttökuva 2024-11-04 221608](https://github.com/user-attachments/assets/0c328d60-8234-4c28-baef-f32d55afa3f4)
+
+![Näyttökuva 2024-11-04 221816](https://github.com/user-attachments/assets/4b57eea2-b3bf-48e3-a12f-2dcf9a0e449d)
+
+![Näyttökuva 2024-11-04 223155](https://github.com/user-attachments/assets/8e1241da-636d-46d0-8df3-710d8481551d)
+![Näyttökuva 2024-11-04 223007](https://github.com/user-attachments/assets/7752eb72-95bc-43f8-97a6-4ec3ce62887a)
+
+
+Etenin siis tuossa järjestyksessä. Nyt on muutama kokeilu tehty, eli syöttämällä kenttään 'OR 1=1 ja kokeilin muutaman kerran leikkiä tuon ```SELECT password FROM pins WHERE pin='123' kanssa.
+
+
