@@ -234,6 +234,14 @@ Eli salasanan olis saanu myös kokeilemalla vaan yleisimpiä salasanoja/Pin-kood
 
 <img width="907" alt="image" src="https://github.com/user-attachments/assets/ed47b400-f0e5-4d8e-a9bb-7f2dbc60fc8e">
 
+Korjaus:
+
+Itselläni ei tähän kyllä tarvittavia työkaluja ole vielä, joten kysyin Copilotilta vähän apua seuraavalla promptilla:
+- How would you make this code safe? It currently has an exploit that you can get a password by removing "numbers" by using the inspect element in FireFox and adding an SQL injection?
+- Vastauksena oli, että tämä ```sql = "SELECT password FROM pins WHERE pin='"+pin+"';"```pitäisi vaihtaa tähän ```res = db.sessios.execute("SELECT password FROM pins WHERE pin=:pin", {'pin': pin})```
+
+
+
 
 
 
