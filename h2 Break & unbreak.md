@@ -192,4 +192,6 @@ Press CTRL+C to quit
 
 Etenin siis tuossa järjestyksessä. Nyt on muutama kokeilu tehty, eli syöttämällä kenttään 'OR 1=1 ja kokeilin muutaman kerran leikkiä tuon ```SELECT password FROM pins WHERE pin='123' kanssa.
 
+- Ekana tuli mieleen, että vilkaisisin tuota "Inspect" ominaisuutta ja sieltä jos saisi ton 'Please enter a number' kohdan rustattua niin, että sais kirjotettua sinne muitakin, kun vaan numeroita. Siihen
+
 
