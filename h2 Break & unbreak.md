@@ -192,6 +192,14 @@ Press CTRL+C to quit
 
 Etenin siis tuossa järjestyksessä. Nyt on muutama kokeilu tehty, eli syöttämällä kenttään 'OR 1=1 ja kokeilin muutaman kerran leikkiä tuon ```SELECT password FROM pins WHERE pin='123' kanssa.
 
-- Ekana tuli mieleen, että vilkaisisin tuota "Inspect" ominaisuutta ja sieltä jos saisi ton 'Please enter a number' kohdan rustattua niin, että sais kirjotettua sinne muitakin, kun vaan numeroita. Siihen
+- Ekana tuli mieleen, että vilkaisisin tuota "Inspect" ominaisuutta ja sieltä jos saisi ton 'Please enter a number' kohdan rustattua niin, että sais kirjotettua sinne muitakin, kun vaan numeroita. Tehtävänä oli tehdä se ilman, joten kokeillaan ny hetken aikaa muita tapoja.
+- Update: Piti vähän surffailla ympäriinsä, mutta onnistuin kaatamaan sivun hetkeksi. Selailin Network - tabia ja hakkasin eri tekstejä 'Reveal my password' kohtaan, joka sen sit lopulta kaatoi.
+
+  <img width="755" alt="image" src="https://github.com/user-attachments/assets/ca4046a1-d87c-405a-ae5c-49ec41cbe80e">
+
+- Kokeilin seuraavia juttuja: Löin käytännössä sormen pohjaan ja painon 0 jatkuvalla syötöllä, ei vaikutusta. Halusin testata tällä, pystyykö sillä aiheuttamaan jonkun virheen
+- Mahdollisimman suuri luku - nyt 9 pohjassa
+- Ei vaikutusta
+- 
 
 
