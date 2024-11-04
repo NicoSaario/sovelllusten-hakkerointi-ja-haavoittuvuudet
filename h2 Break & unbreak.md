@@ -239,6 +239,11 @@ Korjaus:
 Itselläni ei tähän kyllä tarvittavia työkaluja ole vielä, joten kysyin Copilotilta vähän apua seuraavalla promptilla:
 - How would you make this code safe? It currently has an exploit that you can get a password by removing "numbers" by using the inspect element in FireFox and adding an SQL injection?
 - Vastauksena oli, että tämä ```sql = "SELECT password FROM pins WHERE pin='"+pin+"';"```pitäisi vaihtaa tähän ```res = db.sessios.execute("SELECT password FROM pins WHERE pin=:pin", {'pin': pin})```
+- Koko sivu ei nyt toimi, joten periaatteessa koko juttu on korjattu - ei vain oikealla tavalla. Pitää opiskella lisää ja palata tähän myöhemmin
+
+
+
+
 
 
 
