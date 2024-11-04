@@ -46,6 +46,7 @@ Tuossa lopussa modifioitu sivuston URL =notmyacct (voi olla mikä tahansa tunnus
 ```
 Helppo testi, jos sovellus ei estä pääsyä esimerkiksi tuolle admin - sivulle, voi hyökkääjä käyttää URL-osoitetta hyväkseen.
 
+
 Karvinen 2023: Find Hidden Web Directories - Fuzz URLs with ffuf https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/
 
 PortSwigger: Access control vulnerabilities and privilege escalation https://portswigger.net/web-security/access-control
@@ -53,3 +54,57 @@ PortSwigger: Access control vulnerabilities and privilege escalation https://por
 Karvinen 2006: Raportin kirjoittaminen https://terokarvinen.com/2006/raportin-kirjoittaminen-4/
 
 Vapaaehtoinen: PortSwigger 2020: What is SQL injection? - Web Security Academy (noin 10 min video) https://www.youtube.com/watch?v=wX6tszfgYp4
+SQL Injektio
+- Verkkoturvahaavoittuvuus joka mahdollistaa hyökkääjän näyttää dataa, johon ei normaalisti ole pääsyä
+- Muilta käyttäjiltä tai niihin tietoihin, joihin itse sovelluksella on pääsy
+- Monissa tapauksissa voidaan muuttaa tai poistaa dataa, jolla muutetaan sovelluksen käytöstä tai toimintatapoja
+- Pystytään käyttämään DOS - hyökkäyksessä tai päästään paremmin käsiksi sovelluksen taustalla toimiviin palveluihin vaikkapa palvelimiin ja tietokantoihiin ja tätä kautta laajentamaan hyökkäystä
+
+Esimerkki - nettikauppa, jolla käyttäjälle näytetään tietoja ja tavaroita syötteen avulla
+```
+SELECT * FROM products
+WHERE category = 'Gifts'
+AND released = 1 #Piiloitetaan tuotteet. Jos laitetaan 0, se näyttää kaikki
+```
+
+Eli pelkästään sivuston URLia käyttämällä, päästään käsiksi tietoihin joita ei pitäisi näkyä: 
+* https://insecure-website.com/products?category=Gifts ' --
+
+Muuntautuu seuraavasti:
+
+```
+SELECT * FROM products
+WHERE category = 'Gifts'--' # -- eli kaikki muut tulee kommenttina ja kaikki tuotteet näkyvät Gifts - kategoriassa
+AND released = 1
+```
+
+Jos halutaan nähdä kaikki tuotteet kaikista kategorioista, käytetään seuraavaa esimerkkiä:
+
+* https://insecure-website.com/products?category=Gifits'+OR+1=1--
+
+Josta tulee 
+
+```
+SELECT * FROM products
+WHERE category = 'Gifts'
+OR 1=1--' AND released =1 #Koska 1=1 on totta, kysely palauttaa kaikki tuotteet
+```
+
+Jos on sovellus, jossa laitetaan sähköposti ja salasana
+Query= 
+```
+SELECT * FROM users WHERE
+username = 'wiener' #käyttäjän syöttämä AND
+password = 'bluecheese'
+```
+
+Jos sähköpostikenttään syötetään ```administrator'--```, kysely on seuraava:
+
+```
+SELECT * FROM users WHERE
+username = 'admininstrator'--
+AND password = ''
+```
+Se palauttaa käyttäjänimen administrator ja kirjautuu sisään käytännössä ilman salasanaa
+
+
