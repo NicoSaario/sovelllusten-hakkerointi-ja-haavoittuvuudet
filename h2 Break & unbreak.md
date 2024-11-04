@@ -200,6 +200,20 @@ Etenin siis tuossa järjestyksessä. Nyt on muutama kokeilu tehty, eli syöttäm
 - Kokeilin seuraavia juttuja: Löin käytännössä sormen pohjaan ja painon 0 jatkuvalla syötöllä, ei vaikutusta. Halusin testata tällä, pystyykö sillä aiheuttamaan jonkun virheen
 - Mahdollisimman suuri luku - nyt 9 pohjassa
 - Ei vaikutusta
-- 
+- Kokeilin negatiivisia lukuja - ei vaikutusta
+- Erikoismerkit, SQL - syöte ei toimi
+- Nyt aika mennä tutkimaan tarkemmin FireFoxin inspect - toiminnolla
+<img width="929" alt="image" src="https://github.com/user-attachments/assets/375c2551-1aa6-49e2-9b47-6c61bbbc2c64">
+- Eli ajatuksena tuli heti ensimmäisenä löytää jostain kohta, jolla saisi nuo "rajoitukset" pois, eli pystyisi laittamaan jotain muuta kuin pelkkiä numeroita
+- Jos otan tuon "number" - kohdan pois, käsittääkseni rajoitukset lähtevät pois joten kokeillaan sitä
+- Löin siis kokeiluna aikaisemman esimerkin mukaan
+
+```
+SELECT * FROM users WHERE
+username = 'SUPERADMIN'--
+AND password = ''
+```
+
+
 
 
