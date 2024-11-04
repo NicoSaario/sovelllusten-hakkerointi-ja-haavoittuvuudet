@@ -215,5 +215,15 @@ AND password = ''
 ```
 
 
+![Näyttökuva 2024-11-05 002958](https://github.com/user-attachments/assets/edf7327b-d9a5-4981-993d-624f266782f3)
+
+Takaisin piirrustuspöydälle -- 
+
+Hetken lueskeltuani https://portswigger.net/web-security/sql-injection/union-attacks#using-a-sql-injection-union-attack-to-retrieve-interesting-data ja konsultoituani tekoälyä (ChatGPT), päädyin seuraavaan komentoon (muutaman mutkan ja variaation jälkeen)
+![Näyttökuva 2024-11-04 221956](https://github.com/user-attachments/assets/e0448b88-daca-475d-afb8-38a610260401)
+
+Se palautti arvoksi
+<img width="701" alt="image" src="https://github.com/user-attachments/assets/c5ca9507-9230-4303-a958-329e74e526e1">
+
 
 
