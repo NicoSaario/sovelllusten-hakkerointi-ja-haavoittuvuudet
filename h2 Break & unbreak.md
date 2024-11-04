@@ -252,6 +252,14 @@ Itselläni ei tähän kyllä tarvittavia työkaluja ole vielä, joten kysyin Cop
 Nopeesti testattuna näytti, ettei samaa ongelmaa ainakaan näytä olevan. Tein tismalleen samalla menetelmällä, jolla aikaisemmin ja kenttään tuli (not found). Kokeilin myös suoraan URLiin syöttämistä - ei toiminut.
 
 
+## d) Murtaudu 020-your-eyes-only. Ks. Karvinen 2024: Hack'n Fix https://terokarvinen.com/hack-n-fix/
+
+Hack'nFix Teron ohjeiden mukaan kaikki tähän asti 
+
+<img width="939" alt="image" src="https://github.com/user-attachments/assets/2eefbfd5-1b52-4ceb-abeb-af23b30860ce">
+
+
+
 
 
 
