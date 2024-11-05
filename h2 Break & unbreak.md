@@ -7,6 +7,7 @@ AMD Ryzen 5 4500U, RAM 8 Gt.
 
 Aika: Itä-Euroopan normaaliaika Aikavyöhyke: Suomi (UTC+2) 3/11/2024 (pvm/kk/v)
 
+Kaikissa testaukseen liittyvässä:
 Oracle VM VirtualBox ja Debian 12 Bookworm
 
 ## x) Lue/katso/kuuntele ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokoneella, vain lukeminen tai kuunteleminen ja tiivistelmä riittää. Tiivistämiseen riittää muutama ranskalainen viiva.)
