@@ -298,6 +298,29 @@ Ehdin tunnilla tekemään tän lukemalla PortSwigger Academyn sivuja ja käyttä
 
 
 
+## Lähteet: 
+
+Hack'nFix, Karvinen 2024, Luettavissa: https://terokarvinen.com/hack-n-fix/ (luettu 4/11/2024)
+
+OWASP: OWASP Top 10, Luettavissa: https://owasp.org/Top10/A01_2021-Broken_Access_Control/ (Luettu 4/11/2024)
+
+Find Hidden Web Directories, Karvinen 2023, Luettavissa: https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/ (Luettu 4/11/2024)
+
+Access Control vulnerabilities and privilege escalation, PortSwigger, Luettavissa: https://portswigger.net/web-security/access-control (Luettu 4/11/2024)
+
+
+SQL injection UNION attacks, PortSwigger, Luettavissa: https://portswigger.net/web-security/sql-injection/union-attacks#using-a-sql-injection-union-attack-to-retrieve-interesting-data (Luettu 4/11/2024)
+
+
+SQL Injection Prevention Cheat Sheet, OWASP, Luettavissa: https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html#:~:text=Option%201%3A%20Use%20of%20Prepared%20Statements%20%28with%20Parameterized,4%3A%20STRONGLY%20DISCOURAGED%3A%20Escaping%20All%20User%20Supplied%20Input (Luettu 4/11/2024)
+
+SQL injection vulnerability allowing login bypass, PortSwigger, Luettavissa: https://portswigger.net/web-security/sql-injection/lab-login-bypass (luettu 4/11/2024)
+
+Raportin kirjoittaminen, Karvinen 2006, Luettavissa: https://terokarvinen.com/2006/raportin-kirjoittaminen-4/ (Luettu 4/11/2024)
+
+What is SQL Injection? - Web Security Academy, PortSwigger, Katsottavissa: https://www.youtube.com/watch?v=wX6tszfgYp4 (Katsottu 3/11/2024)
+
+Tekoälyt Copilot ja ChatGPT
 
 
 
