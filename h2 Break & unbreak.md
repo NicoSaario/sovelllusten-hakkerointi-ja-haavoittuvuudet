@@ -47,9 +47,15 @@ Tuossa lopussa modifioitu sivuston URL =notmyacct (voi olla mikä tahansa tunnus
 Helppo testi, jos sovellus ei estä pääsyä esimerkiksi tuolle admin - sivulle, voi hyökkääjä käyttää URL-osoitetta hyväkseen.
 
 
-Karvinen 2023: Find Hidden Web Directories - Fuzz URLs with ffuf https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/
+### Karvinen 2023: Find Hidden Web Directories - Fuzz URLs with ffuf https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/
 
-PortSwigger: Access control vulnerabilities and privilege escalation https://portswigger.net/web-security/access-control
+Yritin kaiken tehdä ohjeiden ja muun mukaan, mutta komentoja syöttäessä ja ne melkein 5000 eri kohtaa tarkistaessa, ei tullut mitään arvoja lopussa. Ajoin siis neljä - viisi kertaa samat komennot pienillä muunnoksilla, mutta mitään ei tapahtunut. Sain ensimmäisen tehtävän kyllä tehtyä, mutta tämän jälkeen ohjelma suoritti ne testaukset SecListsin tiedostosta ja jätti palauttamatta mitään arvoja. Pitänee testata uudelleen heti, kun mahdollista - poistaa uudelleen ja leikkiä lisää, mutta nyt en saanut kyllä millään sitä "itsenäistä" tehtävää suoritetuksi.
+- Mutta käytännössä ffuf automatisoi piilotettujen asioiden löytämistä, esimerkiksi kirjastojen tai minkä tahansa muun piilotetun tiedon joka on löydettävissä. Ei tarvitse manuaalisesti käydä joka kohtaa kokeilemassa. Palaan tähän vielä myöhemmin.
+
+![Näyttökuva 2024-11-04 195307](https://github.com/user-attachments/assets/7567f173-ce9b-4751-b792-14661848f613)
+
+
+### PortSwigger: Access control vulnerabilities and privilege escalation https://portswigger.net/web-security/access-control
 
 Pääsynvalvonta (Access Control) - lyhykäisyydessään rajoitetaan se, kuka tai mikä omaa oikeudet suorittaa toimenpiteitä tai päästä käsiksi resursseihin
 - Authentication
@@ -76,7 +82,21 @@ Isoin riski koko operaatiossa on se, että ihmisten on tehtävä suunnittelupä�
    - Rajoittaa pääsyä toimintoihin ja resursseihin tilan tai käyttäjän vuorovaikutuksen perusteella
    - Estää käyttäjiä suorittamasta toimintoja väärässä järjestyksessä - Verkkokauppa voi estää käyttäjiä muokkaamasta ostoskoriaan maksun jälkeen
 
-Karvinen 2006: Raportin kirjoittaminen https://terokarvinen.com/2006/raportin-kirjoittaminen-4/
+### Karvinen 2006: Raportin kirjoittaminen https://terokarvinen.com/2006/raportin-kirjoittaminen-4/
+
+c) Raportin kirjoittaminen
+
+
+1. Täsmällinen kuvaus siitä, mitä teki ja mitä tapahtui
+2. Ei niin, että tekee ensin, kirjoittaa myöhemmin - Raportoi aina samalla, kun teet!
+3. Toimii hyvinä muistiinpanoina ja kuten edellisellä Linux-kurssilla huomasin, tarkkaa rapottia on todella helppo seurata ja suorittaa täten omien raporttien avulla tehtäviä
+4. Auttaa selkeyttämään ajatuksia sekä paikantamaan virheitä
+5. Raportoi ympäristö - kaikki ei välttämättä toimi samanlailla eri ympäristössä
+6. Jokin toinen opiskelija tekee raportin perusteella työn, pitäisi olla sama lopputulos
+7. Täsmällisyys! Komennot, klikkaukset, kellonajat, onnistumiset, epäonnistumiset.
+8. Helppolukuisuus
+9. Lähdeviittaukset
+10. MUISTA TALLENTAA!!!!!!!!
 
 Vapaaehtoinen: PortSwigger 2020: What is SQL injection? - Web Security Academy (noin 10 min video) https://www.youtube.com/watch?v=wX6tszfgYp4
 SQL Injektio
@@ -258,6 +278,20 @@ Hack'nFix Teron ohjeiden mukaan kaikki tähän asti
 
 <img width="939" alt="image" src="https://github.com/user-attachments/assets/2eefbfd5-1b52-4ceb-abeb-af23b30860ce">
 
+
+
+### g) Vapaaehtoinen. Johdantotehtävä, joka auttaa 010-staff-only ratkaisemisessa. Ratkaise Portswigger Academyn "Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data".
+
+Ehdin tunnilla tekemään tän lukemalla PortSwigger Academyn sivuja ja käyttämällä URLiin SQL - injektiota '+OR+1=1--
+
+<img width="594" alt="image" src="https://github.com/user-attachments/assets/04a59513-68cb-4ad8-873f-385c1fab27d5">
+
+
+### h) Vapaaehtoinen. Johdantotehtävä, joka auttaa 010-staff-only ratkaisemisessa. Ratkaise Portswigger Academyn "Lab: SQL injection vulnerability allowing login bypass"
+
+Ehdin tunnilla tekemään tän lukemalla PortSwigger Academyn sivuja ja käyttämällä käyttäjä - kohtaan administrator' -- ja salasanaksi ''
+
+<img width="562" alt="image" src="https://github.com/user-attachments/assets/2d2c5ab5-46d8-4b24-b928-38e5263a70df">
 
 
 
