@@ -278,7 +278,7 @@ Hack'nFix Teron ohjeiden mukaan kaikki tähän asti
 
 <img width="939" alt="image" src="https://github.com/user-attachments/assets/2eefbfd5-1b52-4ceb-abeb-af23b30860ce">
 
-
+Yritin saada asennettua Burp Suitea, mutta jostain syystä se ei toimi ollenkaan
 
 ### g) Vapaaehtoinen. Johdantotehtävä, joka auttaa 010-staff-only ratkaisemisessa. Ratkaise Portswigger Academyn "Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data".
 
