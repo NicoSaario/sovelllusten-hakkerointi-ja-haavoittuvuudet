@@ -10,7 +10,8 @@ Aika: Itä-Euroopan normaaliaika Aikavyöhyke: Suomi (UTC+2) 3/11/2024 (pvm/kk/v
 Oracle VM VirtualBox ja Debian 12 Bookworm
 
 ## x) Lue/katso/kuuntele ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokoneella, vain lukeminen tai kuunteleminen ja tiivistelmä riittää. Tiivistämiseen riittää muutama ranskalainen viiva.)
-OWASP: OWASP Top 10: A01 Broken Access Control https://owasp.org/Top10/A01_2021-Broken_Access_Control/
+
+### OWASP: OWASP Top 10: A01 Broken Access Control https://owasp.org/Top10/A01_2021-Broken_Access_Control/
 
 - Pääsynhallinnan tarkoituksena on rajoittaa käyttäjien toimet vain niille oikeuksille, jotka on myönnetty
 - Väärinkäyttö ja haavoittuvuudet voivat johtaa esimerkiksi tietojen paljastumiseen, muuttumiseen, tuhoutumiseen tai johonkin muuhun liiketoiminnalle haitalliseen
@@ -98,7 +99,7 @@ c) Raportin kirjoittaminen
 9. Lähdeviittaukset
 10. MUISTA TALLENTAA!!!!!!!!
 
-Vapaaehtoinen: PortSwigger 2020: What is SQL injection? - Web Security Academy (noin 10 min video) https://www.youtube.com/watch?v=wX6tszfgYp4
+### Vapaaehtoinen: PortSwigger 2020: What is SQL injection? - Web Security Academy (noin 10 min video) https://www.youtube.com/watch?v=wX6tszfgYp4
 SQL Injektio
 - Verkkoturvahaavoittuvuus joka mahdollistaa hyökkääjän näyttää dataa, johon ei normaalisti ole pääsyä
 - Muilta käyttäjiltä tai niihin tietoihin, joihin itse sovelluksella on pääsy
@@ -166,7 +167,7 @@ Miten niitä haavoittuvuuksia löydetään?
 - Voi testata erilaisilla skannereilla, jotka on tehty sitä varten
 - Syöttää manuaalisesti esim. ```'``` ```' OR 1=1--```, ```ASCII(97)```, ``` '; waitfor delay ('0:0:20')--```
 
-a) Murtaudu 010-staff-only. Ks. Karvinen 2024: Hack'n Fix https://terokarvinen.com/hack-n-fix/
+## a) Murtaudu 010-staff-only. Ks. Karvinen 2024: Hack'n Fix https://terokarvinen.com/hack-n-fix/
 
 Tein tossa hyvän tovin, raportoin aikani ja jäin sitten pohtimaan vähän pidemmäksi aikaa tehtävän tekoa ja raportti lensi jonnekin bittiavaruuteen. Nyt tulee siis suppeampi versio tapahtumista:
 
@@ -240,10 +241,12 @@ AND password = ''
 Takaisin piirrustuspöydälle -- 
 
 Hetken lueskeltuani https://portswigger.net/web-security/sql-injection/union-attacks#using-a-sql-injection-union-attack-to-retrieve-interesting-data ja konsultoituani tekoälyä (ChatGPT), päädyin seuraavaan komentoon (muutaman mutkan ja variaation jälkeen)
+
 ![Näyttökuva 2024-11-05 004316](https://github.com/user-attachments/assets/9c30c94a-904e-486c-84ce-dfe853ae16e9)
 
 
 Se palautti arvoksi
+
 <img width="701" alt="image" src="https://github.com/user-attachments/assets/c5ca9507-9230-4303-a958-329e74e526e1">
 
 Kävin samalla tutkimassa tuon staff-only.py - tiedoston ja sieltä löysinkin seuraavan:
@@ -278,7 +281,7 @@ Hack'nFix Teron ohjeiden mukaan kaikki tähän asti
 
 <img width="939" alt="image" src="https://github.com/user-attachments/assets/2eefbfd5-1b52-4ceb-abeb-af23b30860ce">
 
-Yritin saada asennettua Burp Suitea, mutta jostain syystä se ei toimi ollenkaan
+En saanut tehtyä.
 
 ### g) Vapaaehtoinen. Johdantotehtävä, joka auttaa 010-staff-only ratkaisemisessa. Ratkaise Portswigger Academyn "Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data".
 
