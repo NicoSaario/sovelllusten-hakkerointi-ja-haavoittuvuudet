@@ -201,7 +201,6 @@ WARNING: This is a development server. Do not use it in a production deployment.
  * Running on http://127.0.0.1:5000
 Press CTRL+C to quit
 ```
-![Näyttökuva 2024-11-04 195307](https://github.com/user-attachments/assets/4a3de8f4-d72c-4a55-aff3-9d60c8805bf2)
 
 ![Näyttökuva 2024-11-04 221608](https://github.com/user-attachments/assets/0c328d60-8234-4c28-baef-f32d55afa3f4)
 
