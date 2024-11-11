@@ -139,7 +139,7 @@ Samalla aloin selvittää, että miten pystyn avaamaan tuon paketin, jolloin sel
 
 - Opin aika paljon kaikkea - tiedostot pitävät usein sisällään kaiken näköistä tietoa, jota ei välttämättä huomaa. On kiinnitettävä pieniin yksityiskohtiin enemmän huomiota ja pelkällä yhdellä tiedolla voi saada kaikki loksahtamaan paikalleen. Opin myös sen, että pitäisi vihdosta viimein vaihtaa Linuxille kokonaan ja jatkaa sen parissa lisää työskentelyä, jotta ei pienissäkin asioissa tarvitsisi aina seuloa koko internettiä läpi ja asiat pysyisivät paremmin muistissa. 
 
-- Kyseenalaistan hieman valintaani ottaa kurssi tässä vaiheessa, kun tuo ohjelmistokehitys on vähän heikosti hallussa, mutta kaikki tehtävät tähän liittyen ja luettu materiaali on alkanut laittamaan motivaatiota sen opiskelun suuntaan - ehkä hyvä?
+- Kyseenalaistan hieman valintaani ottaa kurssi tässä vaiheessa, kun tuo ohjelmistokehitys on vähän heikosti hallussa, mutta kaikki tehtävät tähän liittyen ja luettu materiaali on alkanut laittamaan motivaatiota sen opiskelun suuntaan - ehkä hyvä? EDIT: en kyseenalaista enää, sillä tämäkin lopulta ratkeni ilman :D
 
 - Pienistäkin voitoista pitää osata nauttia!
 
