@@ -1,4 +1,4 @@
-<img width="634" alt="image" src="https://github.com/user-attachments/assets/d2d45773-9f4a-47f0-aa59-aa0c645963ef"># Kotitehtävät
+# Kotitehtävät
 Kotitehtävät ovat kurssilta "Sovellusten hakkerointi ja haavoittuvuudet - Application Hacking" ja löytyvät osoitteesta https://terokarvinen.com/application-hacking/#laksyt
 
 Kotitehtävät on tehty Windows 11 - Home - käyttöjärjestelmällä, päivitykset ajettu 3/11/2024 asti.
