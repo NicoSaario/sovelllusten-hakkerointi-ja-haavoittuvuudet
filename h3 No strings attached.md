@@ -39,6 +39,8 @@ Ja ne on identtisiä, joten lippu varmistettu ja löydetty
 
 # b) Tee passtr.c -ohjelmasta uusi versio, jossa salasana ei näy suoraan sellaisenaan binääristä. Osoita testillä, että salasana ei näy. (Obfuskointi riittää.)
 
+EDIT: Nyt, kun sain tuon seuraavan tehtävän tehtyä, mietin, ettei koodiin tarvitse koskea välttämättä ollenkaan. UPX?
+
 Koska olen suht alkeissa vielä ohjelmoinnissa, selvittelin hetken aikaa Obfuskoinnin saloja ja totesin, etten vielä tähän sitä osaa suoraa implementoida. 
 Käytin siis ChatGPTä hyödyksi ja aloitin kyselemällä lisää siitä, miten se tapahtuu ja vähän jopa ehkä epäsuorasti viittasin suoraa tehtävään antamatta kuitenkaan koko koodia sille: "Miten tekisin sen, jos salasana pitäisi olla asetettu valmiiksi, esimerkiksi 'hattu123'".
 
