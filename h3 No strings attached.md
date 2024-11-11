@@ -16,7 +16,12 @@ Aika simppeli homma - aloitin lataamalla tuon tiedoston virtuaalikoneelle, ajoin
 
 <img width="477" alt="image" src="https://github.com/user-attachments/assets/316209c9-7513-4d06-9ef4-dc59900c92c2">
 
-Sen jälkeen simppeli komento ```strings passtr```, joka näyttää tekstin ymmärrettävällä tavalla tiedostosta. Otetaan esimerkkinä ```cat passtr```. Kyllähän tästä pystyy salasanan etsimään, mutta strings tekee koko tiedostosta helpommin luettavan ja sen pystyy putkittamaan käyttämällä esim. |less, jolloin pystyy helpommin selaamaan
+Sen jälkeen simppeli komento ```strings passtr```, joka näyttää tekstin ymmärrettävällä tavalla tiedostosta.
+
+![Näyttökuva 2024-11-11 182044](https://github.com/user-attachments/assets/2531046d-f075-4ee7-b452-593400b6d852)
+
+
+Otetaan esimerkkinä ```cat passtr```. Kyllähän tästä pystyy salasanan etsimään, mutta strings tekee koko tiedostosta helpommin luettavan ja sen pystyy putkittamaan käyttämällä esim. |less, jolloin pystyy helpommin selaamaan
 
 <img width="566" alt="image" src="https://github.com/user-attachments/assets/bbe8ecf3-7bea-4967-9573-b463fd2864db">
 
