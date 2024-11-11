@@ -11,7 +11,7 @@ Kaikissa testaukseen liittyvässä:
 Oracle VM VirtualBox ja Debian 12 Bookworm
 
 
-# a) Strings. Lataa ezbin-challenges.zip Aja 'passtr'. Selvitä oikea salasana 'strings' avulla. Selvitä myös lippu. (Ensisijaisesti katsomatta sorsia, jos osaat.)
+## a) Strings. Lataa ezbin-challenges.zip Aja 'passtr'. Selvitä oikea salasana 'strings' avulla. Selvitä myös lippu. (Ensisijaisesti katsomatta sorsia, jos osaat.)
 Aika simppeli homma - aloitin lataamalla tuon tiedoston virtuaalikoneelle, ajoin 'passtr' - ```./passtr```
 
 <img width="477" alt="image" src="https://github.com/user-attachments/assets/316209c9-7513-4d06-9ef4-dc59900c92c2">
@@ -37,10 +37,23 @@ FLAG{Tero-d75ee66af0a68663f15539ec0f46e3b1} /tiedostosta
 
 Ja ne on identtisiä, joten lippu varmistettu ja löydetty
 
-# b) Tee passtr.c -ohjelmasta uusi versio, jossa salasana ei näy suoraan sellaisenaan binääristä. Osoita testillä, että salasana ei näy. (Obfuskointi riittää.)
+## b) Tee passtr.c -ohjelmasta uusi versio, jossa salasana ei näy suoraan sellaisenaan binääristä. Osoita testillä, että salasana ei näy. (Obfuskointi riittää.)
 
-EDIT: Nyt, kun sain tuon seuraavan tehtävän tehtyä, mietin, ettei koodiin tarvitse koskea välttämättä ollenkaan. UPX?
+### Ratkaisu 1
+EDIT: Nyt, kun sain tuon seuraavan (c - kohdan) tehtävän tehtyä, mietin, ettei koodiin tarvitse koskea välttämättä ollenkaan. UPX? 
+EDIT2: Koko homma hoitui nyt kahdessa minuutissa. Ensin on nopein ja viisain ratkaisu, mutta jätän molemmat tähän näkyviin 
 
+- Dokumentista kävin katsomassa 'Compression Levels & Tuning' - kohdasta parhaan asetuksen ja käytin komentoa ```upx --lzma passtr```. Ilmoitus "Packed 1 file" ja homma toimii.
+- Komento on siis parempi vaihtoehto kuin pelkkä ```upx passtr``` mutta ei suositella käytettäväksi isoille tiedostoille - sen avaaminen saattaa *paljon kauemmin*
+
+<img width="625" alt="image" src="https://github.com/user-attachments/assets/3ad4d766-39ef-478b-a36f-e15cd9cb313a">
+
+Kuten huomaa, koko hommaan meni tasan yksi komento ja nyt ei näy mitään koko salasanaan liittyen. Lisäksi vanha salasana myös toimii vielä:
+
+<img width="575" alt="image" src="https://github.com/user-attachments/assets/e05000d7-4679-4c4d-bac2-891fee7a260c">
+
+
+### Ratkaisu 2 (sekoilua -  jätetään silti näkyviin)
 Koska olen suht alkeissa vielä ohjelmoinnissa, selvittelin hetken aikaa Obfuskoinnin saloja ja totesin, etten vielä tähän sitä osaa suoraa implementoida. 
 Käytin siis ChatGPTä hyödyksi ja aloitin kyselemällä lisää siitä, miten se tapahtuu ja vähän jopa ehkä epäsuorasti viittasin suoraa tehtävään antamatta kuitenkaan koko koodia sille: "Miten tekisin sen, jos salasana pitäisi olla asetettu valmiiksi, esimerkiksi 'hattu123'".
 
@@ -71,7 +84,7 @@ Nyt kuitenkin pitkän pitkän sanaväännön jälkeen päästiin lopputulokseen,
 - Jossa XOR - salattiin, eli tallennettiin salasana kokonaislukuina salattuina merkkeinä ja salasana puretaan vain ajon aikana.
 - Kyseenalaistan tässä kohtaa ehkä hieman sitä, miksi otin kurssin ennen ohjelmointiin syventymistä.. Jatketaan!
 
-# c) Packd. Aja 'packd' paketista ezbin-challenges.zip. Mikä on salasana? Mikä on lippu? (Tämä tehtävä on hieman haastavampi. Kirjaa ylös kokeilemasi lähestymistavat ja keksimäsi hypoteesit. Toivottavasti pääset itse maaliin, mutta jos et, läpikävely paljastuu tunnilla...)
+## c) Packd. Aja 'packd' paketista ezbin-challenges.zip. Mikä on salasana? Mikä on lippu? (Tämä tehtävä on hieman haastavampi. Kirjaa ylös kokeilemasi lähestymistavat ja keksimäsi hypoteesit. Toivottavasti pääset itse maaliin, mutta jos et, läpikävely paljastuu tunnilla...)
 
 - Homma lähti näin käyntiin: 
 
