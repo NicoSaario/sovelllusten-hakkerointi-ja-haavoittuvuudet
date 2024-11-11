@@ -94,6 +94,7 @@ Samalla aloin selvittää, että miten pystyn avaamaan tuon paketin, jolloin sel
 - Sieltähän löyty komento ```tar -xf (tähän tiedosto)```
 - Sivuhuomiona tähän liittyen, et on kyl viimeaikoina tää Linuxin käyttö tullu tutummaks ja tutummaks, ni on näistä tehtävistä kyl paljon hyötyä siihenkin
 - Nyt sitten ihmettelin ja mietin, pohdin ja ihmettelin tätä:
+-  ** Maaliin pääsyn jälkeinen huomio: Ihmettelin tuota aikaisemmin sen takia, ettei missään ollut upx execute - tiedostoa. Ei siis käynyt mieleenkään, että voin käyttää pelkkää ./upx ... - komentoa. Kuitenkin heti, kun sain oikean tiedoston ladattua koneelle, se tuli ihan automaatiolla enkä muistanut enää jääneeni koko kohtaan jumiin
 
 <img width="590" alt="image" src="https://github.com/user-attachments/assets/00e479c0-f0a3-4fe1-a751-d47dd582e109">
 
@@ -109,9 +110,22 @@ Samalla aloin selvittää, että miten pystyn avaamaan tuon paketin, jolloin sel
 
 - Eli sama ```strings packd``` - komento tuon purun jälkeen ja siellähän salasana kiiltää koko komeudessaan
 - Samalla se aikaisemmin mainitsemani tehtävän pelastaja "This file is packed with UPX ..." on kadonnut kokonaan!
-- 
+- Testataan vielä nyt varmuuden vuoksi, että kaikki toimii 
+
+<img width="551" alt="image" src="https://github.com/user-attachments/assets/3c2fc4d3-4f94-4071-b1ca-58e6806a98a3">
+
+
+### Miten meni?
+
+- Opin aika paljon kaikkea - tiedostot pitävät usein sisällään kaiken näköistä tietoa, jota ei välttämättä huomaa. On kiinnitettävä pieniin yksityiskohtiin enemmän huomiota ja pelkällä yhdellä tiedolla voi saada kaikki loksahtamaan paikalleen. Opin myös sen, että pitäisi vihdosta viimein vaihtaa Linuxille kokonaan ja jatkaa sen parissa lisää työskentelyä, jotta ei pienissäkin asioissa tarvitsisi aina seuloa koko internettiä läpi ja asiat pysyisivät paremmin muistissa. 
+
+- Kyseenalaistan hieman valintaani ottaa kurssi tässä vaiheessa, kun tuo ohjelmistokehitys on vähän heikosti hallussa, mutta kaikki tehtävät tähän liittyen ja luettu materiaali on alkanut laittamaan motivaatiota sen opiskelun suuntaan - ehkä hyvä?
+
+- Pienistäkin voitoista pitää osata nauttia!
 
 # d) Vapaaehtoinen bonus: Cryptopals. Crypto Challenge Set 1. Tätä voi tehdä useamman viikon bonuksena. Jos saat ratkaistua kohdat 1 .. "4. Detect single-character XOR", olet jo astunut salakirjoituksen maailmaan.
+
+Palataan asiaan.
 
 
 
@@ -119,9 +133,12 @@ Samalla aloin selvittää, että miten pystyn avaamaan tuon paketin, jolloin sel
 What is Code Obfuscation? How to Disguise Your Code to Make it More Secure, freecodecamp (2020), Luettavissa:
 https://www.freecodecamp.org/news/make-your-code-secure-with-obfuscation/ (Luettu 11/11/2024)
 
-How to extract tar file on Linux (2021), Korbin Brown, Luettavissa:
-https://linuxconfig.org/how-to-extract-tar-file-on-linux
-(Luettu 11/11/2024)
+How to extract tar file on Linux (2021), Korbin Brown, Luettavissa: https://linuxconfig.org/how-to-extract-tar-file-on-linux (Luettu 11/11/2024)
 
 
 How to Use the strings Command on Linux,  Dave McKay, 2019, Luettavissa: https://www.howtogeek.com/427805/how-to-use-the-strings-command-on-linux/ (Luettu 11/11/2024)
+
+
+Kotitehtävät: Sovellusten hakkerointi ja haavoittuvuudet ICI012AS3A-3001, Tero Karvinen, https://terokarvinen.com/application-hacking/#laksyt (Luettu 11/11/2024)
+
+ChatGPT ja Copilot - heille erityiskiitos tehtävässä b
