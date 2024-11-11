@@ -108,6 +108,8 @@ Samalla aloin selvittää, että miten pystyn avaamaan tuon paketin, jolloin sel
 <img width="614" alt="image" src="https://github.com/user-attachments/assets/8ee51604-b01b-4df5-aa78-47840a7f0ec3">
 
 - Eli sama ```strings packd``` - komento tuon purun jälkeen ja siellähän salasana kiiltää koko komeudessaan
+- Samalla se aikaisemmin mainitsemani tehtävän pelastaja "This file is packed with UPX ..." on kadonnut kokonaan!
+- 
 
 # d) Vapaaehtoinen bonus: Cryptopals. Crypto Challenge Set 1. Tätä voi tehdä useamman viikon bonuksena. Jos saat ratkaistua kohdat 1 .. "4. Detect single-character XOR", olet jo astunut salakirjoituksen maailmaan.
 
