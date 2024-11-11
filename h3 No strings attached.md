@@ -70,7 +70,21 @@ Nyt kuitenkin pitkän pitkän sanaväännön jälkeen päästiin lopputulokseen,
 
 <img width="451" alt="image" src="https://github.com/user-attachments/assets/788031af-398b-4853-934e-74c221f8a061">
 
+Tutkiskelin aikani ```strings packd``` ja kokeilin muutamaa salasanaa joukosta, jolloin huomasin, ettei ne toimi. Törmäsin aikaisemman tehtävän tiimoilta termiin UPX ja siihen, että sillä pystytään peittämään merkkijonoja. Noin 5 - minuutin tarkastelun jälkeen huomasin tämän:
 
+<img width="488" alt="image" src="https://github.com/user-attachments/assets/183b9b92-2c80-4111-a948-ddca4595d3b7">
+
+Ajattelin, että tässä on pakko olla joku juju ja ehkä ratkaisu piilee siinä. Latasin UPX - täältä: https://github.com/upx/upx
+Unzippasin ja katselin upx-doc.txt - tiedostoa. Kaikessa yksinkertaisuudessaan se toimii näin:
+
+<img width="321" alt="image" src="https://github.com/user-attachments/assets/2375cb47-8759-4676-ac64-f7074d006ac1">
+
+Samalla aloin selvittää, että miten pystyn avaamaan tuon paketin, jolloin selvisi samasta dokumentista, että "kaikki tiedostoformaatit pystytään avaamaan komennolla ```upx -d yourfile.exe```.
+
+<img width="478" alt="image" src="https://github.com/user-attachments/assets/2af76ac3-33b9-484c-9791-52884171fd37">
+
+- Kokeillaan sitä siis seuraavaksi:
+- 
 
 # d) Vapaaehtoinen bonus: Cryptopals. Crypto Challenge Set 1. Tätä voi tehdä useamman viikon bonuksena. Jos saat ratkaistua kohdat 1 .. "4. Detect single-character XOR", olet jo astunut salakirjoituksen maailmaan.
 
