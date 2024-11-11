@@ -84,7 +84,11 @@ Samalla aloin selvittää, että miten pystyn avaamaan tuon paketin, jolloin sel
 <img width="478" alt="image" src="https://github.com/user-attachments/assets/2af76ac3-33b9-484c-9791-52884171fd37">
 
 - Kokeillaan sitä siis seuraavaksi:
-- 
+- Kokeilin ja saatoin ehkä jäädä jumiin, koska tuli virheilmoitus 
+
+<img width="424" alt="image" src="https://github.com/user-attachments/assets/bcdb25ae-6229-4f4d-84a2-589c111955ce">
+
+- Rupesin sit noin 15 minuutin selailun jälkeen miettimään ja kokeileen eri ratkaisuja ihan näpyttelemällä kaikkee, mitä tuli mieleen - katoin myös doc 
 
 # d) Vapaaehtoinen bonus: Cryptopals. Crypto Challenge Set 1. Tätä voi tehdä useamman viikon bonuksena. Jos saat ratkaistua kohdat 1 .. "4. Detect single-character XOR", olet jo astunut salakirjoituksen maailmaan.
 
