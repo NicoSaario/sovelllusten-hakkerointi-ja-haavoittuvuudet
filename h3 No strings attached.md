@@ -93,7 +93,21 @@ Samalla aloin selvittää, että miten pystyn avaamaan tuon paketin, jolloin sel
 - Samalla sit jouduin Googlettamaan et miten tar - tiedoston saa purettua :D
 - Sieltähän löyty komento ```tar -xf (tähän tiedosto)```
 - Sivuhuomiona tähän liittyen, et on kyl viimeaikoina tää Linuxin käyttö tullu tutummaks ja tutummaks, ni on näistä tehtävistä kyl paljon hyötyä siihenkin
-- 
+- Nyt sitten ihmettelin ja mietin, pohdin ja ihmettelin tätä:
+
+<img width="590" alt="image" src="https://github.com/user-attachments/assets/00e479c0-f0a3-4fe1-a751-d47dd582e109">
+
+- Aikani pohdittua (joku aboutkerrallaan 34 minuuttia), ajattelin että nyt loppuu se leikkiminen ja siirsin upx execute - filen suoraan packd - kansioon
+- Kappas keppanaa:
+
+ <img width="590" alt="image" src="https://github.com/user-attachments/assets/f596ff8d-3cea-4c47-a4f8-ad5d5945a818">
+
+- Vielä ei kuitenkaan olla maalissa, vaikka juhlia voikin.
+- Aluks en kyllä uskonu pääseväni tähän tilanteeseen ja tehtävä näytti jotenkin vähän absurdilta ilman sen suurempaa pohjaa koko asiaan. Kun palasia yhdistelee toisiinsa ja usein kokeilee kaikennäköistä, päästään niillä joskus maaliin. Nyt voi vähän juhlia jo lisää
+
+<img width="614" alt="image" src="https://github.com/user-attachments/assets/8ee51604-b01b-4df5-aa78-47840a7f0ec3">
+
+- Eli sama ```strings packd``` - komento tuon purun jälkeen ja siellähän salasana kiiltää koko komeudessaan
 
 # d) Vapaaehtoinen bonus: Cryptopals. Crypto Challenge Set 1. Tätä voi tehdä useamman viikon bonuksena. Jos saat ratkaistua kohdat 1 .. "4. Detect single-character XOR", olet jo astunut salakirjoituksen maailmaan.
 
