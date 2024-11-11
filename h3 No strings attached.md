@@ -88,7 +88,12 @@ Samalla aloin selvittää, että miten pystyn avaamaan tuon paketin, jolloin sel
 
 <img width="424" alt="image" src="https://github.com/user-attachments/assets/bcdb25ae-6229-4f4d-84a2-589c111955ce">
 
-- Rupesin sit noin 15 minuutin selailun jälkeen miettimään ja kokeileen eri ratkaisuja ihan näpyttelemällä kaikkee, mitä tuli mieleen - katoin myös doc 
+- Rupesin sit noin 15 minuutin selailun jälkeen miettimään ja kokeileen eri ratkaisuja ihan näpyttelemällä kaikkee, mitä tuli mieleen - katoin myös doc taas
+- Nyt tajusin tarkistaa latauspaikan ja sen, mitä tuli ajatuksissaan tehtyä - latasin siis uudestaan koko setin https://upx.github.io/ täältä ja 
+- Samalla sit jouduin Googlettamaan et miten tar - tiedoston saa purettua :D
+- Sieltähän löyty komento ```tar -xf (tähän tiedosto)```
+- Sivuhuomiona tähän liittyen, et on kyl viimeaikoina tää Linuxin käyttö tullu tutummaks ja tutummaks, ni on näistä tehtävistä kyl paljon hyötyä siihenkin
+- 
 
 # d) Vapaaehtoinen bonus: Cryptopals. Crypto Challenge Set 1. Tätä voi tehdä useamman viikon bonuksena. Jos saat ratkaistua kohdat 1 .. "4. Detect single-character XOR", olet jo astunut salakirjoituksen maailmaan.
 
@@ -97,5 +102,10 @@ Samalla aloin selvittää, että miten pystyn avaamaan tuon paketin, jolloin sel
 ## Lähteet:
 What is Code Obfuscation? How to Disguise Your Code to Make it More Secure, freecodecamp (2020), Luettavissa:
 https://www.freecodecamp.org/news/make-your-code-secure-with-obfuscation/ (Luettu 11/11/2024)
+
+How to extract tar file on Linux (2021), Korbin Brown, Luettavissa:
+https://linuxconfig.org/how-to-extract-tar-file-on-linux
+(Luettu 11/11/2024)
+
 
 How to Use the strings Command on Linux,  Dave McKay, 2019, Luettavissa: https://www.howtogeek.com/427805/how-to-use-the-strings-command-on-linux/ (Luettu 11/11/2024)
