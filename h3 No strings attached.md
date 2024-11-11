@@ -65,4 +65,19 @@ Nyt kuitenkin pitkän pitkän sanaväännön jälkeen päästiin lopputulokseen,
 - Kyseenalaistan tässä kohtaa ehkä hieman sitä, miksi otin kurssin ennen ohjelmointiin syventymistä.. Jatketaan!
 
 # c) Packd. Aja 'packd' paketista ezbin-challenges.zip. Mikä on salasana? Mikä on lippu? (Tämä tehtävä on hieman haastavampi. Kirjaa ylös kokeilemasi lähestymistavat ja keksimäsi hypoteesit. Toivottavasti pääset itse maaliin, mutta jos et, läpikävely paljastuu tunnilla...)
+
+- Homma lähti näin käyntiin: 
+
+<img width="451" alt="image" src="https://github.com/user-attachments/assets/788031af-398b-4853-934e-74c221f8a061">
+
+
+
 # d) Vapaaehtoinen bonus: Cryptopals. Crypto Challenge Set 1. Tätä voi tehdä useamman viikon bonuksena. Jos saat ratkaistua kohdat 1 .. "4. Detect single-character XOR", olet jo astunut salakirjoituksen maailmaan.
+
+
+
+## Lähteet:
+What is Code Obfuscation? How to Disguise Your Code to Make it More Secure, freecodecamp (2020), Luettavissa:
+https://www.freecodecamp.org/news/make-your-code-secure-with-obfuscation/ (Luettu 11/11/2024)
+
+How to Use the strings Command on Linux,  Dave McKay, 2019, Luettavissa: https://www.howtogeek.com/427805/how-to-use-the-strings-command-on-linux/ (Luettu 11/11/2024)
