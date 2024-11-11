@@ -62,8 +62,7 @@ Nyt kuitenkin pitkän pitkän sanaväännön jälkeen päästiin lopputulokseen,
 <img width="413" alt="image" src="https://github.com/user-attachments/assets/5b47cb1b-370d-4b93-a5d9-8f71c1cabe1c">
 
 - Jossa XOR - salattiin, eli tallennettiin salasana kokonaislukuina salattuina merkkeinä ja salasana puretaan vain ajon aikana.
-- Törmäsin nyt kuitenkin ongelmaan, jossa 'sala-hakkeri-321' ei toimi. 
-
+- Kyseenalaistan tässä kohtaa ehkä hieman sitä, miksi otin kurssin ennen ohjelmointiin syventymistä.. Jatketaan!
 
 # c) Packd. Aja 'packd' paketista ezbin-challenges.zip. Mikä on salasana? Mikä on lippu? (Tämä tehtävä on hieman haastavampi. Kirjaa ylös kokeilemasi lähestymistavat ja keksimäsi hypoteesit. Toivottavasti pääset itse maaliin, mutta jos et, läpikävely paljastuu tunnilla...)
 # d) Vapaaehtoinen bonus: Cryptopals. Crypto Challenge Set 1. Tätä voi tehdä useamman viikon bonuksena. Jos saat ratkaistua kohdat 1 .. "4. Detect single-character XOR", olet jo astunut salakirjoituksen maailmaan.
