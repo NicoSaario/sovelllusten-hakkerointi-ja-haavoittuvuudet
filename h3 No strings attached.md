@@ -1,4 +1,4 @@
-# Kotitehtävät
+<img width="634" alt="image" src="https://github.com/user-attachments/assets/d2d45773-9f4a-47f0-aa59-aa0c645963ef"># Kotitehtävät
 Kotitehtävät ovat kurssilta "Sovellusten hakkerointi ja haavoittuvuudet - Application Hacking" ja löytyvät osoitteesta https://terokarvinen.com/application-hacking/#laksyt
 
 Kotitehtävät on tehty Windows 11 - Home - käyttöjärjestelmällä, päivitykset ajettu 3/11/2024 asti.
@@ -51,6 +51,17 @@ Jatkoin Teron vanhalla salasanalla "sala-hakkeri-321" ja koska en tätä ainakaa
 
 ![image](https://github.com/user-attachments/assets/4f4576b4-f592-427d-85df-7aeda95f820a)
 
+Pikku päivitys tähän väliin: Hakkasin päätä seinään noin 2h tän homman parissa yhdessä tekoälyjen ChatGPT ja Copilot kanssa. Olis ehkä voinu olla nopeempaa yrittää opetella tätä kunnolla, mutta näytti aluks sen verran heprealta nuo tekoälyn luomat koodit, että ajattelin sen vievän kymmenen kertaa enemmän aikaa jos itse selvittäisin.
+
+Nyt kuitenkin pitkän pitkän sanaväännön jälkeen päästiin lopputulokseen, jossa salasanaa ei näy. Voi olla, että jo ensimmäiset testaukset olisivat toimineet (pelkkä ASCII - metodi), mutta jouduin lopulta kysymään, että tarviiko tehdä jokin päivitys tms. ja vastauksena tuli komento ```gcc -o passtr passtr.c``` sekä tietysti passtr ajaminen ```./passtr```.
+
+<img width="634" alt="image" src="https://github.com/user-attachments/assets/be020119-9712-4472-9d49-685d4c4d38a5">
+
+- Eli Copilot viimeisteli koodin lopulta näin: 
+
+<img width="413" alt="image" src="https://github.com/user-attachments/assets/5b47cb1b-370d-4b93-a5d9-8f71c1cabe1c">
+
+- Jossa 
 
 
 # c) Packd. Aja 'packd' paketista ezbin-challenges.zip. Mikä on salasana? Mikä on lippu? (Tämä tehtävä on hieman haastavampi. Kirjaa ylös kokeilemasi lähestymistavat ja keksimäsi hypoteesit. Toivottavasti pääset itse maaliin, mutta jos et, läpikävely paljastuu tunnilla...)
