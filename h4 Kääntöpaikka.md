@@ -25,10 +25,15 @@ Oracle VM VirtualBox ja Debian 12 Bookworm
 
 Latailin sen oppitunnilta valmiiksi täältä https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_11.2.1_build
 
+# b) rever-C. Käänteismallinna packd-binääri C-kielelle Ghidralla. Etsi pääohjelma. Anna muuttujielle kuvaavat nimet. Selitä ohjelman toiminta. Ratkaise tehtävä binääristä, ilman alkuperäistä lähdekoodia. ezbin-challenges.zip
 
+<img width="599" alt="image" src="https://github.com/user-attachments/assets/88f2570b-e61a-4ef3-b307-0feb4f55e1c7">
 
+Unzippasin ghidra - tiedoston, muutin ghidraRun - nimeksi ghidra ja yritin ajaa sitä ```./ghidra```- komennolla.
 
+<img width="599" alt="image" src="https://github.com/user-attachments/assets/1d6fbb59-0cb8-4b87-bc2a-ad5c9cedbbb0">
 
+Kuten videossa mainittiin, tämä 
 
 # Lähteet: 
 Hammond 2022: Ghidra for Reverse Engineering (PicoCTF 2022 #42 'bbbloat'), Katsottavissa:
