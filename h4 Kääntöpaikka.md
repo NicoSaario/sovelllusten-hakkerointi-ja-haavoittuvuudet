@@ -21,6 +21,10 @@ Oracle VM VirtualBox ja Debian 12 Bookworm
 
 
 
+# a) Asenna Ghidra.
+
+Latailin sen oppitunnilta valmiiksi täältä https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_11.2.1_build
+
 
 
 
