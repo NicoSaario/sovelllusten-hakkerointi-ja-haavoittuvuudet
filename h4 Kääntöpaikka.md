@@ -15,6 +15,9 @@ Oracle VM VirtualBox ja Debian 12 Bookworm
 
 1) Hammond 2022: Ghidra for Reverse Engineering (PicoCTF 2022 #42 'bbbloat') (Video, noin 20 min) https://www.youtube.com/watch?v=oTD_ki86c9I
 
+- Kyseinen video pohjautuu Ghidran tutoriaaliin, jota hyödynnetään tekemällä lipunryöstö
+- Sitä ennen on hyvä testata aina helpot ja nopeat ratkaisut, joilla voi löytyä lisätietoa, esim ```ltrace``` ```strace```
+- 
 
 
 2) Vapaaehtoinen: € Eagle and Nancy 2020: The Ghidra Book: 2. Reversing And Disassembly Tools (Usein suositeltu kirja Ghidrasta) https://www.oreilly.com/library/view/the-ghidra-book/9781098125684/xhtml/ch02.xhtml#ch02lev29
@@ -38,7 +41,23 @@ Eli versio on väärä. Tämä myös mainittiin Teron antamissa ohjeissa: "Debia
 ```sudo apt-get install openjdk-17-jdk```
 Ota Ghidran versio, joka toimii tällä versiolla Java 17. Muistaakseni Ghidra 11.1.2. Se on vieläpä aika uusi."
 
-Ajattelin kuitenkin testata kepillä jäätä ja saada sen toimimaan tällä 11.*2*.1 - versiolla
+Ajattelin kuitenkin testata kepillä jäätä ja saada sen toimimaan tällä 11.2.1 - versiolla:
+- Hain täältä: https://www.oracle.com/java/technologies/downloads/#java21 version 21, jota pyydettiin
+- Latasin ja koska kyseessä .deb - tiedosto, komennolla ```dpkg -i <tiedosto tähän>``` asentelin sen kuntoon
+- Ja sehän toimii!
+
+<img width="884" alt="image" src="https://github.com/user-attachments/assets/5a08bacb-a542-48ec-a878-e6b8db650e0c">
+
+Testasin myös samalla, olisiko tuo löytynyt videon ohjeilla ```apt-cache search jdk```
+- Kokeilin jdk21, java21 ja jdk17+ jne, mutta ne eivät toimineet
+
+<img width="199" alt="image" src="https://github.com/user-attachments/assets/d29680d9-e611-4f9b-b37c-74f8e40fc93e">
+
+<img width="390" alt="image" src="https://github.com/user-attachments/assets/bb208a02-2488-450d-9106-bda2af90da12">
+
+Löyty, testattu ja toimi myös noin. Jatkoa ajatellen nopeampi tapa löytää oikeat tiedostot (ja jopa turvallisemmin)
+
+
 
 # Lähteet: 
 Hammond 2022: Ghidra for Reverse Engineering (PicoCTF 2022 #42 'bbbloat'), Katsottavissa:
@@ -46,4 +65,6 @@ https://www.youtube.com/watch?v=oTD_ki86c9I (katsottu 17/11/2024)
 
 Eagle and Nancy 2020: The Ghidra Book: 2. Reversing And Disassembly Tools, Luettavissa:
 https://www.oreilly.com/library/view/the-ghidra-book/9781098125684/xhtml/ch02.xhtml#ch02lev29 (luettu 17/11/2024)
+
+https://askubuntu.com/questions/40779/how-do-i-install-a-deb-file-via-the-command-line
 
