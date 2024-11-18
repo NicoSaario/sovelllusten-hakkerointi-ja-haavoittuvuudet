@@ -125,6 +125,33 @@ Looginen päättely johti siihen, että toisen on pakko olla JMP. Nopealla Googl
 
 - Kaikki siis meni niinku piti.
 
+# d) Nora CrackMe: Käännä binääreiksi Tindall 2023: NoraCodes / crackmes. Lue README.md: älä katso lähdekoodeja, ellet tarvitse niitä apupyöriksi. Näissä tehtävissä binäärejä käänteismallinnetaan. Binäärejä ei muokata, koska muutenhan jokaisen tehtävän ratkaisu olisi vaihtaa palautusarvoksi "return 0".
+
+Lueskelin README ja latasin kaikki virtuaalikoneelle, unzippasin samalla ja ```make crackme01``` - komennolla saa ne toimimaan. Tuon crackme01 voi vaihtaa mihin tahansa muuhun sitten, kun sen aika on.
+
+<img width="329" alt="image" src="https://github.com/user-attachments/assets/f80deb11-1d5a-4699-9ff6-5e3ba680c048">
+
+
+## e) Nora crackme01. Ratkaise binääri.
+
+* Crackme01.c
+
+- Lähdin muistelemaan aikaisempaa tehtävää, jossa käytettiin  ```strings```komentoa. 
+- Tässä nyt ei onneksi tällä kertaa mennyt minuuttia kauempaa: <img width="359" alt="image" src="https://github.com/user-attachments/assets/aea6fac0-ccac-4346-b946-3127c20e8c7e">
+- Testataan vielä, olinko oikeassa:
+- Hetken tuli mietittyä, että mikähän juttu, kun ei toimi ja laitoin sit ton 'password1' tohon ./crackme01.64 perään:
+
+<img width="352" alt="image" src="https://github.com/user-attachments/assets/33b73cea-9801-4cfe-a7ac-34ed2fc2d14c">
+
+
+* Crackme01e.c
+
+- Sama homma tässä: ```strings crackme01e.c```
+
+  <img width="367" alt="image" src="https://github.com/user-attachments/assets/6c02a09c-16e2-4ac8-9ebf-8d3eed105f6c">
+
+
+
 # Lähteet: 
 Hammond 2022: Ghidra for Reverse Engineering (PicoCTF 2022 #42 'bbbloat'), Katsottavissa:
 https://www.youtube.com/watch?v=oTD_ki86c9I (katsottu 17/11/2024)
