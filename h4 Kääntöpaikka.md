@@ -33,7 +33,7 @@ Unzippasin ghidra - tiedoston, muutin ghidraRun - nimeksi ghidra ja yritin ajaa 
 
 <img width="599" alt="image" src="https://github.com/user-attachments/assets/1d6fbb59-0cb8-4b87-bc2a-ad5c9cedbbb0">
 
-Kuten videossa mainittiin, tämä 
+Kuten videossa mainittiin, joudutaan lataamaan Java JDK - työkalu manuaalisesti, jotta Ghidra toimii.
 
 # Lähteet: 
 Hammond 2022: Ghidra for Reverse Engineering (PicoCTF 2022 #42 'bbbloat'), Katsottavissa:
