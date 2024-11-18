@@ -102,6 +102,11 @@ No nyt alkoi näkymään ja myös Ghidra tunnisti heti "main" - funktion tuon ri
 
 Ohjelma käytännössä toimii niin, että se vertaa käyttäjän syöttämän rimpsun salasanaan ja jos se on oikein, lippu tulee näkyviin. Jos syöttö ei täsmää salasanan kansssa, se palauttaaa "Sorry, no bonus."
 
+# c) Jos väärinpäin. Muokkaa passtr-ohjelman binääriä (ilman alkuperäistä lähdekoodia) niin, että se hyväksyy kaikki salasanat paitsi oikean. Osoita testein, että ohjelma toimii. ezbin-challenges.zip
+
+Ajattelin heti alkuun testailla tätä jo valmiiksi avatulla packd - binäärillä, josta löysin jo valmiiksi kaikki tarvittavat. Muistan Teron pitämältä oppitunnilta, että vaihtamalla kahden funktion kohtaa, voi saada tuon halutun lopputuloksen ja toimem liittyi muistaakseni JMP - kohtaan.
+
+
 # Lähteet: 
 Hammond 2022: Ghidra for Reverse Engineering (PicoCTF 2022 #42 'bbbloat'), Katsottavissa:
 https://www.youtube.com/watch?v=oTD_ki86c9I (katsottu 17/11/2024)
