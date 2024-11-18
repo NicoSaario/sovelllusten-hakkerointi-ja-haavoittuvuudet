@@ -39,7 +39,7 @@ Latailin sen oppitunnilta valmiiksi täältä https://github.com/NationalSecurit
 
 Kuten videossakin mainittiin, joudutaan lataamaan Java JDK - työkalu manuaalisesti, jotta Ghidra toimii.
 
-Unzippasin ghidra - tiedoston, muutin ghidraRun - nimeksi ghidra ja yritin ajaa sitä ```./ghidra```- komennolla.
+Unzippasin ghidra - tiedoston ja yritin lyödä Ghidran päälle ajamalla sitä ```./ghidraRun```- komennolla.
 
 <img width="770" alt="image" src="https://github.com/user-attachments/assets/e2921b49-99ad-46ec-bbf2-febc8e06aac1">
 
