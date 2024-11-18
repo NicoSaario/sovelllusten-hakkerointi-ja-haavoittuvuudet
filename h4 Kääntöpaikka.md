@@ -31,6 +31,8 @@ Oracle VM VirtualBox ja Debian 12 Bookworm
 
 Latailin sen oppitunnilta valmiiksi täältä https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_11.2.1_build
 
+- Lyhyt ja ytimekäs 'Assets' - kohdan alapuolella Zip - tiedosto. Napauta - Lataa - Tutki - Unzip - Tutki lisää
+
 - b) Kohdassa on laajempi kuvaus asentelun jälkeisistä toimista
 
 # b) rever-C. Käänteismallinna packd-binääri C-kielelle Ghidralla. Etsi pääohjelma. Anna muuttujielle kuvaavat nimet. Selitä ohjelman toiminta. Ratkaise tehtävä binääristä, ilman alkuperäistä lähdekoodia. ezbin-challenges.zip
