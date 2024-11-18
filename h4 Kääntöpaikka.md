@@ -25,6 +25,7 @@ Oracle VM VirtualBox ja Debian 12 Bookworm
 2) Vapaaehtoinen: € Eagle and Nancy 2020: The Ghidra Book: 2. Reversing And Disassembly Tools (Usein suositeltu kirja Ghidrasta) https://www.oreilly.com/library/view/the-ghidra-book/9781098125684/xhtml/ch02.xhtml#ch02lev29
 
 - Lueskelen ja päivittelen tätä tehtäviä tehdessä
+- Päivitys: Lueskelin ja unohdin päivitellä :/
 
 
 ## a) Asenna Ghidra.
@@ -190,6 +191,17 @@ https://www.youtube.com/watch?v=oTD_ki86c9I (katsottu 17/11/2024)
 Eagle and Nancy 2020: The Ghidra Book: 2. Reversing And Disassembly Tools, Luettavissa:
 https://www.oreilly.com/library/view/the-ghidra-book/9781098125684/xhtml/ch02.xhtml#ch02lev29 (luettu 17/11/2024)
 
-https://askubuntu.com/questions/40779/how-do-i-install-a-deb-file-via-the-command-line
+How do I install a .deb file via the command line?, Luettavissa:
+https://askubuntu.com/questions/40779/how-do-i-install-a-deb-file-via-the-command-line (luettu 18/11/2024)
 
 C Tutorial, W3Schools, Luettavissa: https://www.w3schools.com/c/index.php (luettu 18/11/2024)
+
+
+Sovellusten hakkerointi ja haavoittuvuudet, Tero Karvinen, Luettavissa:
+https://terokarvinen.com/application-hacking/#laksyt (luettu 18/11/2024)
+
+Understanding the Difference: 'jnz' vs. 'jmp' in IDA Pro, DevCodeF1 Editors, 2024-03-17, Luettavissa:
+https://devcodef1.com/news/1181349/ida-jnz-vs-jmp (luettu 18/11/2024)
+
+Ghidra analyzing hardcoded indirect jumps, Luettavissa:
+https://reverseengineering.stackexchange.com/questions/22985/ghidra-analyzing-hardcoded-indirect-jumps (luettu 18/11/2024)
