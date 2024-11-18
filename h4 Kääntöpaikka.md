@@ -111,7 +111,7 @@ Looginen päättely johti siihen, että toisen on pakko olla JMP. Nopealla Googl
 - Tän jälkeen kokeilin vaihtaa muutaman kerran JMP ja JNZ paikkaa, mutta se ei tuottanut haluttua lopputulosta
 - Takaisin Googleen siis
 - Löysin sattumalta linkin, jonka oikolukemalla törmäsin tähän lauseeseen "Ghidra allows us to patch instructions (using CTRL + SHIFT + G), transforming things like conditional jumps (think JNZ to JZ and so on) into simple jumps, and so on" täältä: https://reverseengineering.stackexchange.com/questions/22985/ghidra-analyzing-hardcoded-indirect-jumps ... Joten! 
-- Vaihdoin JMP -> JNZ
+- Vaihdoin JMP -> JZ
 - Export program - >  <img width="283" alt="image" src="https://github.com/user-attachments/assets/8f3b8130-9bdc-4d26-918a-dfeb91e9e539">
 
 - Jokunen aikasempi kokeilu näkyykin tuossa, mutta oikea on tuo ```passtr.JMP``` <img width="242" alt="image" src="https://github.com/user-attachments/assets/18d729d7-589c-4a45-95f0-a163c4bd7fac">
