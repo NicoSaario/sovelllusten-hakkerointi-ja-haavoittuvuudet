@@ -79,8 +79,8 @@ Sitten vain klikkailin ok - ja 'Analyze now'
 
 Tähän kohtaan voisi lisäillä noita jos haluaisi, muttei se nyt ole tarpeellista.
 
---- Jatkan tästä myöhemmin
---- Jatkuu
+Sunnuntai 17.11.2024 klo 20--- Jatkan tästä myöhemmin
+--- Jatkuu Maanantaina 18.11.2024 noin kello 17
 
 Hetken aikaa ihmettelin, että miksen löydä koko pääfunktiota mistään ja koko koodi näyttää heprealta. Olin kuitenkin aikaisemmissa tehtävissä käyttänyt UPX - työkalua ja unohdin sen kokonaan. 
 
@@ -165,9 +165,23 @@ Lueskelin README ja latasin kaikki virtuaalikoneelle, unzippasin samalla ja ```m
 
 - Pyrin palaamaan vielä myöhemmin
 
-# h) Vapaaehtoinen: Pyytämättäkin. Crackme02 on kaksi ratkaisua. Löydätkö molemmat?
+## g) Vapaaehtoinen: Ja sen yli. Crackme01 on useampia ratkaisuja. Montako löydät? Miksi?
+
+## h) Vapaaehtoinen: Pyytämättäkin. Crackme02 on kaksi ratkaisua. Löydätkö molemmat?
 
 Vastasin molempiin ratkaisuihin kohdassa e) ```"!"``` ja ```\!```
+
+## i) Vapaaehtoinen, hieman haastavampi: A ray. Nora crackme02e. Ratkaise binääri.
+
+- Tein tämän taas tutkimalla ```strings``` - komennolla
+
+ <img width="364" alt="image" src="https://github.com/user-attachments/assets/057d0126-38c2-4ee8-880c-7065a6016bec">
+
+- Kiinnitti huomion tuo //The actual correct value is wstklmng ja kokeilin sitä ensin. Lopuksi myös tuota "oikeaa" salasanaa
+
+<img width="335" alt="image" src="https://github.com/user-attachments/assets/3a5d57c2-ad7b-4419-9030-76b68cd6c605">
+
+- Ratkaistu!
 
 ### Lähteet: 
 Hammond 2022: Ghidra for Reverse Engineering (PicoCTF 2022 #42 'bbbloat'), Katsottavissa:
