@@ -28,12 +28,17 @@ Latailin sen oppitunnilta valmiiksi täältä https://github.com/NationalSecurit
 # b) rever-C. Käänteismallinna packd-binääri C-kielelle Ghidralla. Etsi pääohjelma. Anna muuttujielle kuvaavat nimet. Selitä ohjelman toiminta. Ratkaise tehtävä binääristä, ilman alkuperäistä lähdekoodia. ezbin-challenges.zip
 
 <img width="599" alt="image" src="https://github.com/user-attachments/assets/88f2570b-e61a-4ef3-b307-0feb4f55e1c7">
+Kuten videossa mainittiin, joudutaan lataamaan Java JDK - työkalu manuaalisesti, jotta Ghidra toimii.
 
 Unzippasin ghidra - tiedoston, muutin ghidraRun - nimeksi ghidra ja yritin ajaa sitä ```./ghidra```- komennolla.
 
-<img width="599" alt="image" src="https://github.com/user-attachments/assets/1d6fbb59-0cb8-4b87-bc2a-ad5c9cedbbb0">
+<img width="770" alt="image" src="https://github.com/user-attachments/assets/e2921b49-99ad-46ec-bbf2-febc8e06aac1">
 
-Kuten videossa mainittiin, joudutaan lataamaan Java JDK - työkalu manuaalisesti, jotta Ghidra toimii.
+Eli versio on väärä. Tämä myös mainittiin Teron antamissa ohjeissa: "Debian 12-Bookworm (ulkomuistista)
+```sudo apt-get install openjdk-17-jdk```
+Ota Ghidran versio, joka toimii tällä versiolla Java 17. Muistaakseni Ghidra 11.1.2. Se on vieläpä aika uusi."
+
+Ajattelin kuitenkin testata kepillä jäätä ja saada sen toimimaan tällä 12.2.1 - versiolla
 
 # Lähteet: 
 Hammond 2022: Ghidra for Reverse Engineering (PicoCTF 2022 #42 'bbbloat'), Katsottavissa:
