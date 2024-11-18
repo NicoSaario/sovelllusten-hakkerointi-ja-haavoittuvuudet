@@ -11,7 +11,7 @@ Kaikissa testaukseen liittyvässä:
 Oracle VM VirtualBox ja Debian 12 Bookworm
 
 
-# x) Lue/katso/kuuntele ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokoneella, vain lukeminen tai kuunteleminen ja tiivistelmä riittää. Tiivistämiseen riittää muutama ranskalainen viiva.)
+## x) Lue/katso/kuuntele ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokoneella, vain lukeminen tai kuunteleminen ja tiivistelmä riittää. Tiivistämiseen riittää muutama ranskalainen viiva.)
 
 1) Hammond 2022: Ghidra for Reverse Engineering (PicoCTF 2022 #42 'bbbloat') (Video, noin 20 min) https://www.youtube.com/watch?v=oTD_ki86c9I
 
@@ -27,7 +27,7 @@ Oracle VM VirtualBox ja Debian 12 Bookworm
 - Lueskelen ja päivittelen tätä tehtäviä tehdessä
 
 
-# a) Asenna Ghidra.
+## a) Asenna Ghidra.
 
 Latailin sen oppitunnilta valmiiksi täältä https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_11.2.1_build
 
@@ -35,7 +35,7 @@ Latailin sen oppitunnilta valmiiksi täältä https://github.com/NationalSecurit
 
 - b) Kohdassa on laajempi kuvaus asentelun jälkeisistä toimista
 
-# b) rever-C. Käänteismallinna packd-binääri C-kielelle Ghidralla. Etsi pääohjelma. Anna muuttujielle kuvaavat nimet. Selitä ohjelman toiminta. Ratkaise tehtävä binääristä, ilman alkuperäistä lähdekoodia. ezbin-challenges.zip
+## b) rever-C. Käänteismallinna packd-binääri C-kielelle Ghidralla. Etsi pääohjelma. Anna muuttujielle kuvaavat nimet. Selitä ohjelman toiminta. Ratkaise tehtävä binääristä, ilman alkuperäistä lähdekoodia. ezbin-challenges.zip
 
 <img width="599" alt="image" src="https://github.com/user-attachments/assets/88f2570b-e61a-4ef3-b307-0feb4f55e1c7">
 
@@ -66,7 +66,7 @@ Testasin myös samalla, olisiko tuo löytynyt videon ohjeilla ```apt-cache searc
 Löyty, testattu ja toimi myös noin. Jatkoa ajatellen nopeampi tapa löytää oikeat tiedostot (ja jopa turvallisemmin)
 
 
-# b) rever-C. Käänteismallinna packd-binääri C-kielelle Ghidralla. Etsi pääohjelma. Anna muuttujielle kuvaavat nimet. Selitä ohjelman toiminta. Ratkaise tehtävä binääristä, ilman alkuperäistä lähdekoodia. ezbin-challenges.zip
+## b) rever-C. Käänteismallinna packd-binääri C-kielelle Ghidralla. Etsi pääohjelma. Anna muuttujielle kuvaavat nimet. Selitä ohjelman toiminta. Ratkaise tehtävä binääristä, ilman alkuperäistä lähdekoodia. ezbin-challenges.zip
 
 - Drag'n'drop - menetelmällä viedään haluttu tiedosto Ghidraan
 <img width="781" alt="image" src="https://github.com/user-attachments/assets/01d094a1-2824-4f4d-b665-1017773f333e">
@@ -102,7 +102,7 @@ No nyt alkoi näkymään ja myös Ghidra tunnisti heti "main" - funktion tuon ri
 
 Ohjelma käytännössä toimii niin, että se vertaa käyttäjän syöttämän rimpsun salasanaan ja jos se on oikein, lippu tulee näkyviin. Jos syöttö ei täsmää salasanan kansssa, se palauttaaa "Sorry, no bonus."
 
-# c) Jos väärinpäin. Muokkaa passtr-ohjelman binääriä (ilman alkuperäistä lähdekoodia) niin, että se hyväksyy kaikki salasanat paitsi oikean. Osoita testein, että ohjelma toimii. ezbin-challenges.zip
+## c) Jos väärinpäin. Muokkaa passtr-ohjelman binääriä (ilman alkuperäistä lähdekoodia) niin, että se hyväksyy kaikki salasanat paitsi oikean. Osoita testein, että ohjelma toimii. ezbin-challenges.zip
 
 Muistan Teron pitämältä oppitunnilta, että vaihtamalla kahden funktion kohtaa, voi saada tuon halutun lopputuloksen ja toimen liittyi muistaakseni JMP - kohtaan.
 Looginen päättely johti siihen, että toisen on pakko olla JMP. Nopealla Googlettamisella löysin https://devcodef1.com/news/1181349/ida-jnz-vs-jmp ja varmistuin siitä, että ne liittyvät toisiinsa. Jump ja Jump if Not Zero (JMP, JNZ).
@@ -125,7 +125,7 @@ Looginen päättely johti siihen, että toisen on pakko olla JMP. Nopealla Googl
 
 - Kaikki siis meni niinku piti.
 
-# d) Nora CrackMe: Käännä binääreiksi Tindall 2023: NoraCodes / crackmes. Lue README.md: älä katso lähdekoodeja, ellet tarvitse niitä apupyöriksi. Näissä tehtävissä binäärejä käänteismallinnetaan. Binäärejä ei muokata, koska muutenhan jokaisen tehtävän ratkaisu olisi vaihtaa palautusarvoksi "return 0".
+## d) Nora CrackMe: Käännä binääreiksi Tindall 2023: NoraCodes / crackmes. Lue README.md: älä katso lähdekoodeja, ellet tarvitse niitä apupyöriksi. Näissä tehtävissä binäärejä käänteismallinnetaan. Binäärejä ei muokata, koska muutenhan jokaisen tehtävän ratkaisu olisi vaihtaa palautusarvoksi "return 0".
 
 Lueskelin README ja latasin kaikki virtuaalikoneelle, unzippasin samalla ja ```make crackme01``` - komennolla saa ne toimimaan. Tuon crackme01 voi vaihtaa mihin tahansa muuhun sitten, kun sen aika on.
 
@@ -157,11 +157,11 @@ Lueskelin README ja latasin kaikki virtuaalikoneelle, unzippasin samalla ja ```m
 
 - Kuten kuvasta näkyy, tuli tehtyä kaikenlaisia testejä :D lopussa kaksi oikeaa vastausta <img width="348" alt="image" src="https://github.com/user-attachments/assets/58b6881a-ebad-45fe-9836-4224c37f1b59">
 
-# f) Nora crackme02. Nimeä pääohjelman muuttujat käänteismallinnetusta binääristä ja selitä ohjelman toiminta. Ratkaise binääri.
+## f) Nora crackme02. Nimeä pääohjelman muuttujat käänteismallinnetusta binääristä ja selitä ohjelman toiminta. Ratkaise binääri.
 
 
 
-# Lähteet: 
+### Lähteet: 
 Hammond 2022: Ghidra for Reverse Engineering (PicoCTF 2022 #42 'bbbloat'), Katsottavissa:
 https://www.youtube.com/watch?v=oTD_ki86c9I (katsottu 17/11/2024)
 
