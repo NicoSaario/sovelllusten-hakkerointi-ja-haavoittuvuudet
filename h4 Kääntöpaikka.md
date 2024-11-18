@@ -82,6 +82,13 @@ Tähän kohtaan voisi lisäillä noita jos haluaisi, muttei se nyt ole tarpeelli
 --- Jatkan tästä myöhemmin
 --- Jatkuu
 
+Hetken aikaa ihmettelin, että miksen löydä koko pääfunktiota mistään ja koko koodi näyttää heprealta. Olin kuitenkin aikaisemmissa tehtävissä käyttänyt UPX - työkalua ja unohdin sen kokonaan. 
+
+<img width="386" alt="image" src="https://github.com/user-attachments/assets/eb30d145-e004-4db3-8d01-5e91ffd54b85">
+
+No nyt alkoi näkymään ja myös Ghidra tunnisti heti "main" - funktion tuon rimpsun sisältä. Tuli siis ilmoituslaatikko, jossa Ghidra ilmoitti löytäneensä main - funktion ja kysyi, hypätäänkö siihen samantien. Tottakai painoin kyllä ja pääsin heti perille.
+
+<img width="632" alt="image" src="https://github.com/user-attachments/assets/0a1f1cb1-b57b-4dd3-b1d5-12d69199127f">
 
 
 # Lähteet: 
