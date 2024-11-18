@@ -150,7 +150,13 @@ Lueskelin README ja latasin kaikki virtuaalikoneelle, unzippasin samalla ja ```m
 
   <img width="367" alt="image" src="https://github.com/user-attachments/assets/6c02a09c-16e2-4ac8-9ebf-8d3eed105f6c">
 
+- Erona tässä tehtävässä on tämä: <img width="347" alt="image" src="https://github.com/user-attachments/assets/d2c3ba5c-cd57-42c3-a796-b28798356402">
+- Ymmärsin, että huutomerkki aiheuttaa tuon virheilmoituksen ja googletin sitä hetken aikaa. Törmäsin tähän linkkiin: https://serverfault.com/questions/208265/what-is-bash-event-not-found
+- Löysin kaksi ratkaisua vastaukseen. ```!```voi tehdä joko niin, että laittaa \! tai "!", jolloin se luetaan osana merkkijonoa eikä minään muuna.
 
+- Kuten kuvasta näkyy, tuli tehtyä kaikenlaisia testejä :D Lopulta päädyttiin oikeaan ratkaisuun <img width="353" alt="image" src="https://github.com/user-attachments/assets/1f79e09d-0f44-4ab9-84b3-dc4a0bf76ade">
+
+- Ihmettelin tuota erroria, et
 
 # Lähteet: 
 Hammond 2022: Ghidra for Reverse Engineering (PicoCTF 2022 #42 'bbbloat'), Katsottavissa:
