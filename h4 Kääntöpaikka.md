@@ -36,7 +36,8 @@ Latailin sen oppitunnilta valmiiksi täältä https://github.com/NationalSecurit
 # b) rever-C. Käänteismallinna packd-binääri C-kielelle Ghidralla. Etsi pääohjelma. Anna muuttujielle kuvaavat nimet. Selitä ohjelman toiminta. Ratkaise tehtävä binääristä, ilman alkuperäistä lähdekoodia. ezbin-challenges.zip
 
 <img width="599" alt="image" src="https://github.com/user-attachments/assets/88f2570b-e61a-4ef3-b307-0feb4f55e1c7">
-Kuten videossa mainittiin, joudutaan lataamaan Java JDK - työkalu manuaalisesti, jotta Ghidra toimii.
+
+Kuten videossakin mainittiin, joudutaan lataamaan Java JDK - työkalu manuaalisesti, jotta Ghidra toimii.
 
 Unzippasin ghidra - tiedoston, muutin ghidraRun - nimeksi ghidra ja yritin ajaa sitä ```./ghidra```- komennolla.
 
