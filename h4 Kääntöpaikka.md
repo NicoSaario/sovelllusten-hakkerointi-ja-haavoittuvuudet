@@ -38,7 +38,7 @@ Eli versio on väärä. Tämä myös mainittiin Teron antamissa ohjeissa: "Debia
 ```sudo apt-get install openjdk-17-jdk```
 Ota Ghidran versio, joka toimii tällä versiolla Java 17. Muistaakseni Ghidra 11.1.2. Se on vieläpä aika uusi."
 
-Ajattelin kuitenkin testata kepillä jäätä ja saada sen toimimaan tällä 12.2.1 - versiolla
+Ajattelin kuitenkin testata kepillä jäätä ja saada sen toimimaan tällä 11.2.1 - versiolla
 
 # Lähteet: 
 Hammond 2022: Ghidra for Reverse Engineering (PicoCTF 2022 #42 'bbbloat'), Katsottavissa:
