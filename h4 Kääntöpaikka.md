@@ -1,11 +1,11 @@
 # Kotitehtävät
 Kotitehtävät ovat kurssilta "Sovellusten hakkerointi ja haavoittuvuudet - Application Hacking" ja löytyvät osoitteesta https://terokarvinen.com/application-hacking/#laksyt
 
-Kotitehtävät on tehty Windows 11 - Home - käyttöjärjestelmällä, päivitykset ajettu 3/11/2024 asti.
+Kotitehtävät on tehty Windows 11 - Home - käyttöjärjestelmällä, päivitykset ajettu 17/11/2024 asti.
 
 AMD Ryzen 5 4500U, RAM 8 Gt.
 
-Aika: Itä-Euroopan normaaliaika Aikavyöhyke: Suomi (UTC+2) 11/11/2024 (pvm/kk/v)
+Aika: Itä-Euroopan normaaliaika Aikavyöhyke: Suomi (UTC+2) 17/11/2024 (pvm/kk/v)
 
 Kaikissa testaukseen liittyvässä:
 Oracle VM VirtualBox ja Debian 12 Bookworm
@@ -24,11 +24,14 @@ Oracle VM VirtualBox ja Debian 12 Bookworm
 
 2) Vapaaehtoinen: € Eagle and Nancy 2020: The Ghidra Book: 2. Reversing And Disassembly Tools (Usein suositeltu kirja Ghidrasta) https://www.oreilly.com/library/view/the-ghidra-book/9781098125684/xhtml/ch02.xhtml#ch02lev29
 
+- Lueskelen ja päivittelen tätä tehtäviä tehdessä
 
 
 # a) Asenna Ghidra.
 
 Latailin sen oppitunnilta valmiiksi täältä https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_11.2.1_build
+
+- b) Kohdassa on laajempi kuvaus asentelun jälkeisistä toimista
 
 # b) rever-C. Käänteismallinna packd-binääri C-kielelle Ghidralla. Etsi pääohjelma. Anna muuttujielle kuvaavat nimet. Selitä ohjelman toiminta. Ratkaise tehtävä binääristä, ilman alkuperäistä lähdekoodia. ezbin-challenges.zip
 
@@ -59,6 +62,21 @@ Testasin myös samalla, olisiko tuo löytynyt videon ohjeilla ```apt-cache searc
 
 Löyty, testattu ja toimi myös noin. Jatkoa ajatellen nopeampi tapa löytää oikeat tiedostot (ja jopa turvallisemmin)
 
+
+# b) rever-C. Käänteismallinna packd-binääri C-kielelle Ghidralla. Etsi pääohjelma. Anna muuttujielle kuvaavat nimet. Selitä ohjelman toiminta. Ratkaise tehtävä binääristä, ilman alkuperäistä lähdekoodia. ezbin-challenges.zip
+
+- Drag'n'drop - menetelmällä viedään haluttu tiedosto Ghidraan
+<img width="781" alt="image" src="https://github.com/user-attachments/assets/01d094a1-2824-4f4d-b665-1017773f333e">
+
+<img width="470" alt="image" src="https://github.com/user-attachments/assets/a19e0f9b-446a-49f6-8206-9dac6080957f">
+
+Sitten vain klikkailin ok - ja 'Analyze now' 
+
+<img width="491" alt="image" src="https://github.com/user-attachments/assets/ca562075-a255-497a-8065-a2d55f1074d4">
+
+Tähän kohtaan voisi lisäillä noita jos haluaisi, muttei se nyt ole tarpeellista.
+
+--- Jatkan tästä myöhemmin
 
 
 # Lähteet: 
