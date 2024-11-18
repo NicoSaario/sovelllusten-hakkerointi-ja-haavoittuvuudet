@@ -105,7 +105,7 @@ Ohjelma käytännössä toimii niin, että se vertaa käyttäjän syöttämän r
 
 ## c) Jos väärinpäin. Muokkaa passtr-ohjelman binääriä (ilman alkuperäistä lähdekoodia) niin, että se hyväksyy kaikki salasanat paitsi oikean. Osoita testein, että ohjelma toimii. ezbin-challenges.zip
 
-Muistan Teron pitämältä oppitunnilta, että vaihtamalla kahden funktion kohtaa, voi saada tuon halutun lopputuloksen ja toimen liittyi muistaakseni JMP - kohtaan.
+Muistan Teron pitämältä oppitunnilta, että vaihtamalla kahden muuttujan kohtaa, voi saada tuon halutun lopputuloksen ja toimen liittyi muistaakseni JMP - kohtaan.
 Looginen päättely johti siihen, että toisen on pakko olla JMP. Nopealla Googlettamisella löysin https://devcodef1.com/news/1181349/ida-jnz-vs-jmp ja varmistuin siitä, että ne liittyvät toisiinsa. Jump ja Jump if Not Zero (JMP, JNZ).
 
 - Tän jälkeen kokeilin vaihtaa muutaman kerran JMP ja JNZ paikkaa, mutta se ei tuottanut haluttua lopputulosta
