@@ -105,11 +105,25 @@ Ohjelma käytännössä toimii niin, että se vertaa käyttäjän syöttämän r
 # c) Jos väärinpäin. Muokkaa passtr-ohjelman binääriä (ilman alkuperäistä lähdekoodia) niin, että se hyväksyy kaikki salasanat paitsi oikean. Osoita testein, että ohjelma toimii. ezbin-challenges.zip
 
 Muistan Teron pitämältä oppitunnilta, että vaihtamalla kahden funktion kohtaa, voi saada tuon halutun lopputuloksen ja toimen liittyi muistaakseni JMP - kohtaan.
-Looginen päättely johti siihen, että toisen on pakko olla JMP. Nopealla Googlettamisella löysin https://devcodef1.com/news/1181349/ida-jnz-vs-jmp ja varmistuin siitä, että ne liittyvät toisiinsa. Jump ja Jump if Not Zero.
+Looginen päättely johti siihen, että toisen on pakko olla JMP. Nopealla Googlettamisella löysin https://devcodef1.com/news/1181349/ida-jnz-vs-jmp ja varmistuin siitä, että ne liittyvät toisiinsa. Jump ja Jump if Not Zero (JMP, JNZ).
 
+- Tän jälkeen kokeilin vaihtaa muutaman kerran JMP ja JNZ paikkaa, mutta se ei tuottanut haluttua lopputulosta
+- Takaisin Googleen siis
+- Löysin sattumalta linkin, jonka oikolukemalla törmäsin tähän lauseeseen "Ghidra allows us to patch instructions (using CTRL + SHIFT + G), transforming things like conditional jumps (think JNZ to JZ and so on) into simple jumps, and so on" täältä: https://reverseengineering.stackexchange.com/questions/22985/ghidra-analyzing-hardcoded-indirect-jumps ... Joten! 
+- Vaihdoin JMP -> JNZ
+- Export program - >  <img width="283" alt="image" src="https://github.com/user-attachments/assets/8f3b8130-9bdc-4d26-918a-dfeb91e9e539">
 
+- Jokunen aikasempi kokeilu näkyykin tuossa, mutta oikea on tuo ```passtr.JMP``` <img width="242" alt="image" src="https://github.com/user-attachments/assets/18d729d7-589c-4a45-95f0-a163c4bd7fac">
 
+- Sillä ei ole vielä oikeuksia, joten annoin ```chmod +x passtr.JMP```
 
+<img width="336" alt="image" src="https://github.com/user-attachments/assets/ccabc8f0-02b8-4d3f-a846-7a921d23edb8">
+
+- Sit testataan vielä, ettei toi alkuperäinen toimi:
+
+<img width="322" alt="image" src="https://github.com/user-attachments/assets/bda71c17-fb33-4544-8feb-baa8f946b75b">
+
+- Kaikki siis meni niinku piti.
 
 # Lähteet: 
 Hammond 2022: Ghidra for Reverse Engineering (PicoCTF 2022 #42 'bbbloat'), Katsottavissa:
