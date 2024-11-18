@@ -90,6 +90,17 @@ No nyt alkoi näkymään ja myös Ghidra tunnisti heti "main" - funktion tuon ri
 
 <img width="632" alt="image" src="https://github.com/user-attachments/assets/0a1f1cb1-b57b-4dd3-b1d5-12d69199127f">
 
+- Kuvassa näkyy myös tuo salasana suoraan "piilos-AnAnAs"
+- Ainoat asiat, mitä osasin tuosta korjata hieman kieltä opiskelemalla olivat
+
+  <img width="305" alt="image" src="https://github.com/user-attachments/assets/2ccc0a57-999a-417c-91a2-8f13e90c386d">
+
+- Eli iVar1 ```is_password_correct```
+- _isoc99_ näytti turhalta, joten otin kokonaan sen pois
+- local_28 = ```is_password_correct```
+- tuon "main" - Ghidra lisäsi itse, joten ainoastaan ehkä "undefined8" voisi ottaa pois?
+
+Ohjelma käytännössä toimii niin, että se vertaa käyttäjän syöttämän rimpsun salasanaan ja jos se on oikein, lippu tulee näkyviin. Jos syöttö ei täsmää salasanan kansssa, se palauttaaa "Sorry, no bonus."
 
 # Lähteet: 
 Hammond 2022: Ghidra for Reverse Engineering (PicoCTF 2022 #42 'bbbloat'), Katsottavissa:
@@ -100,3 +111,4 @@ https://www.oreilly.com/library/view/the-ghidra-book/9781098125684/xhtml/ch02.xh
 
 https://askubuntu.com/questions/40779/how-do-i-install-a-deb-file-via-the-command-line
 
+C Tutorial, W3Schools, Luettavissa: https://www.w3schools.com/c/index.php (luettu 18/11/2024)
