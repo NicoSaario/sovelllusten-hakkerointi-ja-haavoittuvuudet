@@ -80,6 +80,8 @@ Sitten vain klikkailin ok - ja 'Analyze now'
 Tähän kohtaan voisi lisäillä noita jos haluaisi, muttei se nyt ole tarpeellista.
 
 --- Jatkan tästä myöhemmin
+--- Jatkuu
+
 
 
 # Lähteet: 
