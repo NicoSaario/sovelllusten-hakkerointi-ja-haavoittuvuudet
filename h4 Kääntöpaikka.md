@@ -159,7 +159,15 @@ Lueskelin README ja latasin kaikki virtuaalikoneelle, unzippasin samalla ja ```m
 
 ## f) Nora crackme02. Nimeä pääohjelman muuttujat käänteismallinnetusta binääristä ja selitä ohjelman toiminta. Ratkaise binääri.
 
+- Availin ghidralla ja tää tehtävä jää kyllä tältä osin tähän:
 
+<img width="584" alt="image" src="https://github.com/user-attachments/assets/da61c4df-937f-4bc9-b0d5-a74f90b23848">
+
+- Pyrin palaamaan vielä myöhemmin
+
+# h) Vapaaehtoinen: Pyytämättäkin. Crackme02 on kaksi ratkaisua. Löydätkö molemmat?
+
+Vastasin molempiin ratkaisuihin kohdassa e) ```"!"``` ja ```\!```
 
 ### Lähteet: 
 Hammond 2022: Ghidra for Reverse Engineering (PicoCTF 2022 #42 'bbbloat'), Katsottavissa:
