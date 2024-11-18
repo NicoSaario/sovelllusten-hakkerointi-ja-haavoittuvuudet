@@ -15,7 +15,9 @@ Oracle VM VirtualBox ja Debian 12 Bookworm
 
 1) Hammond 2022: Ghidra for Reverse Engineering (PicoCTF 2022 #42 'bbbloat') (Video, noin 20 min) https://www.youtube.com/watch?v=oTD_ki86c9I
 
-- Kyseinen video pohjautuu Ghidran tutoriaaliin, jota hyödynnetään tekemällä lipunryöstö
+
+- Ghidra on free open source reverse engineering tool - NSAn kehittämä
+- Kyseinen video on tarkoitettu opastamaan Ghidran käyttöä ja opettamista hyödynnetään tekemällä lipunryöstö
 - Sitä ennen on hyvä testata aina helpot ja nopeat ratkaisut, joilla voi löytyä lisätietoa, esim ```ltrace``` ```strace```
 - 
 
