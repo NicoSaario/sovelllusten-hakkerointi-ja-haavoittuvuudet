@@ -19,7 +19,7 @@ Oracle VM VirtualBox ja Debian 12 Bookworm
 - Ghidra on free open source reverse engineering tool - NSAn kehittämä
 - Kyseinen video on tarkoitettu opastamaan Ghidran käyttöä ja opettamista hyödynnetään tekemällä lipunryöstö
 - Sitä ennen on hyvä testata aina helpot ja nopeat ratkaisut, joilla voi löytyä lisätietoa, esim ```ltrace``` ```strace```
-- 
+- Video on kaiken kaikkiaan hyvä. Siinä selitetään hieman sitä, miten Ghidra toimii ja miten kannattaa lähestyä tulevaa tehtävää ja pyrkiä ratkaisuun
 
 
 2) Vapaaehtoinen: € Eagle and Nancy 2020: The Ghidra Book: 2. Reversing And Disassembly Tools (Usein suositeltu kirja Ghidrasta) https://www.oreilly.com/library/view/the-ghidra-book/9781098125684/xhtml/ch02.xhtml#ch02lev29
