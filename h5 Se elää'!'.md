@@ -91,3 +91,7 @@ Sain ensin tuon passtr - salasanan ja lipun pelkällä ```strings```- komennolla
 - Mietin tässä kohtaa, että onko kyseessä sama jippo, mitä käytiin tunnilla läpi eli salasana pitää muuttaa ASCII - merkistöllä toiseen muotoon
 - Mutta miten? Siihen pisteeseen oon nyt päässy, että "anLTj4u8" ASCII-koodina on:
 97 110 76 84 106 52 117 56
+
+
+## c) Lab3. Kokeile Nora Crackmes harjoituksia tehtävä 3 ja 4 ja loput vapaaehtoisia. Tindall 2023: NoraCodes / crackmes.
+
