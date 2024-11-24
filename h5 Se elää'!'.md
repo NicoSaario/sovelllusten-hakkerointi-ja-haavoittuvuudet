@@ -53,4 +53,8 @@ Aloitin tehtävän tekemällä vanhalla tutulla ```strings``` - komennolla. Täl
 
 - <img width="434" alt="image" src="https://github.com/user-attachments/assets/1c10e8e2-e6e5-4edf-ae70-99a742319285">
 
+- Eli Lopputulos: Kun silmukka on käynyt kaikki "Hello World" -merkkijonon merkit läpi, message siirtyy muistialueen ulkopuolelle ja kaatuu.
+- Tämä jäi taas vähän oman osaamisalueeni ulkopuolelle, joten konsultoin hieman tekoälyä apuna ja vastauksena oli, että saadaan 
+
+<img width="493" alt="image" src="https://github.com/user-attachments/assets/41e298c3-a9b8-4338-9283-352ee3766da7">
 
