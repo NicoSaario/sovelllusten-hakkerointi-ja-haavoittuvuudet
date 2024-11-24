@@ -88,6 +88,10 @@ Sain ensin tuon passtr - salasanan ja lipun pelkällä ```strings```- komennolla
 - Mutta miten? Siihen pisteeseen oon nyt päässy, että "anLTj4u8" ASCII-koodina on:
 97 110 76 84 106 52 117 56
 
+- Se jollain tapaa varmaan viittaa tohon "mAsdf3a", mikä näkyy Ghidrassakin, mutta en saa kyllä mitään tolkkua että miten.
+- Sen verran kauan on päätä hakattu nyt seinään, että pieni tauko tekee hyvää. Palaan myöhemmin
+
+---Tähän siis luova tauko---25.11.2024 klo 01:15 - Aloitus oli 24.11.2024 noin klo 16
 
 ## c) Lab3. Kokeile Nora Crackmes harjoituksia tehtävä 3 ja 4 ja loput vapaaehtoisia. Tindall 2023: NoraCodes / crackmes.
 
