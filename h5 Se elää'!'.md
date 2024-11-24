@@ -58,3 +58,12 @@ Aloitin tehtävän tekemällä vanhalla tutulla ```strings``` - komennolla. Täl
 
 <img width="493" alt="image" src="https://github.com/user-attachments/assets/41e298c3-a9b8-4338-9283-352ee3766da7">
 
+- Tehtävä vähän laajeni, mutta halusin testata tuon lopputuloksen. Muutin siis koodin kokonaan seuraavasti:
+
+<img width="274" alt="image" src="https://github.com/user-attachments/assets/0316c3df-3b68-41e8-a2a7-ff36673168a8">
+
+- Ja lopputuloksena ohjelma antoi seuraavan:
+- ![Näyttökuva 2024-11-24 203514](https://github.com/user-attachments/assets/fc0e3637-f855-407e-a9e5-ea96a031d105)
+- Nyt se palauttaa Error: message is Null.
+
+
