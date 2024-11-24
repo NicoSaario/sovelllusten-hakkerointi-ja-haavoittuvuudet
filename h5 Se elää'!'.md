@@ -66,4 +66,12 @@ Aloitin tehtävän tekemällä vanhalla tutulla ```strings``` - komennolla. Täl
 - ![Näyttökuva 2024-11-24 203514](https://github.com/user-attachments/assets/fc0e3637-f855-407e-a9e5-ea96a031d105)
 - Nyt se palauttaa Error: message is Null.
 
+## b) Lab2. Selvitä salasana ja lippu + kirjoita raportti siitä miten aukesi. lab2.zip
+
+Ajattelin hetken, että mikä homma tässä oikein on ja tein taas perus ```strings``` - komennon, joka tulosti molemmat näistä suoraan
+
+
+
+<img width="340" alt="image" src="https://github.com/user-attachments/assets/f1645d0c-3f1b-4f9e-b1f3-839edc9785d3">
+
 
