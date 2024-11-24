@@ -68,10 +68,16 @@ Aloitin tehtävän tekemällä vanhalla tutulla ```strings``` - komennolla. Täl
 
 ## b) Lab2. Selvitä salasana ja lippu + kirjoita raportti siitä miten aukesi. lab2.zip
 
-Ajattelin hetken, että mikä homma tässä oikein on ja tein taas perus ```strings``` - komennon, joka tulosti molemmat näistä suoraan
+Tässä piti ensin lukea README - tiedosto ```cat```- komennon avulla ja tehdä siitä tiedosto
 
+<img width="376" alt="image" src="https://github.com/user-attachments/assets/e2a722f3-b1df-42d3-8912-f42e4f91fd26">
 
+Sain ensin tuon passtr - salasanan ja lipun pelkällä ```strings```- komennolla
 
-<img width="340" alt="image" src="https://github.com/user-attachments/assets/f1645d0c-3f1b-4f9e-b1f3-839edc9785d3">
+<img width="316" alt="image" src="https://github.com/user-attachments/assets/b585e03c-1fd9-49b7-8161-d3a8e0da4b79">
 
+- Lähdin sitten selvittelemään tuota passtr2o - tiedostoa. ```strings``` - komennolla ei tullut mitään maata mullistavaa:
 
+  <img width="186" alt="image" src="https://github.com/user-attachments/assets/ee5d8439-9885-4537-a2a7-1f2cf7bcb948">
+
+  
