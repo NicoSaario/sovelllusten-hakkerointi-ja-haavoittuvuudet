@@ -9,3 +9,18 @@ Aika: Itä-Euroopan normaaliaika Aikavyöhyke: Suomi (UTC+2) 24/11/2024 (pvm/kk/
 
 Kaikissa testaukseen liittyvässä:
 Oracle VM VirtualBox ja Debian 12 Bookworm
+
+
+## a) Lab1. Tutkiminen mikä on ohjelmassa vialla ja miten se korjataan. lab1.zip
+
+Aloitin tehtävän tekemällä vanhalla tutulla ```strings``` - komennolla. Tällä kertaa sieltä ei kuitenkaan löytynyt muuta mielenkiintoista, kuin nämä good ja bad - messaget: <img width="194" alt="image" src="https://github.com/user-attachments/assets/14bdbecd-2f0e-4ddd-ab58-f774cb1fb911">
+
+- Käännetään koodi siis ajettavaan muotoon jaettujen kalvojen ohjeiden mukaan, eli ```gbd -o main gbd_example1.c -g```:
+
+<img width="329" alt="image" src="https://github.com/user-attachments/assets/fc96923f-abfa-4781-ac85-3d6d5771a60f">
+
+- Nähdään, että sinne ilmestyi tuo "main" -  <img width="174" alt="image" src="https://github.com/user-attachments/assets/52e6cc3d-80c8-47d5-b1da-57f51acc5f41">
+
+- Ajetaan se debuggerilla ```gbd ./main```
+- ```run```- komennolla katsotaan, mitä se tekee <img width="233" alt="image" src="https://github.com/user-attachments/assets/eb556956-1bf1-4396-b5a6-9a5f39822f41">
+
