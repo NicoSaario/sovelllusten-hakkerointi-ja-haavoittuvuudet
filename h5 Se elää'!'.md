@@ -35,3 +35,22 @@ Aloitin tehtävän tekemällä vanhalla tutulla ```strings``` - komennolla. Täl
 <img width="344" alt="image" src="https://github.com/user-attachments/assets/b8882e24-4f57-4e30-ba1b-9ca91f4ad20c">
 
 - Ongelma löytyy siis tuosta kuvassa näkyvästä kohdasta
+
+- Halusin vähän lisää selvitystä, joten kysäsin ChatGPTltä, miten saisin tuosta nimenomaisesta kohdasta lisätietoa
+- Se ehdotti, että laitan ```watch *message```ja breakpointin tuohon kohtaan, jossa ongelma ilmenee eli ```break *0x555555514f```
+
+- <img width="456" alt="image" src="https://github.com/user-attachments/assets/ca74a560-c9fc-47d4-83da-a36bdd162a3a">
+
+- <img width="419" alt="image" src="https://github.com/user-attachments/assets/0236b28b-0b7c-494c-abb1-af89b7355ad9">
+
+<img width="416" alt="image" src="https://github.com/user-attachments/assets/82d69817-ed2e-469d-99f8-5fff6522868c">
+
+<img width="443" alt="image" src="https://github.com/user-attachments/assets/b621ecd7-4db2-4101-aa90-d04a99ae1d0a">
+
+<img width="435" alt="image" src="https://github.com/user-attachments/assets/255aed16-a562-454c-a207-2d3621eb9619">
+
+- Kuten kuvista näkyy, "Hello World" pienenee joka kohdassa yhdellä kirjaimella. Viimeisenä palauttaa arvon 18, tämän jälkeen koko ohjelma kaatuu
+
+- <img width="434" alt="image" src="https://github.com/user-attachments/assets/1c10e8e2-e6e5-4edf-ae70-99a742319285">
+
+
