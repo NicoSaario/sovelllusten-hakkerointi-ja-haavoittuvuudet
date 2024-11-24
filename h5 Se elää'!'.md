@@ -80,4 +80,7 @@ Sain ensin tuon passtr - salasanan ja lipun pelkällä ```strings```- komennolla
 
   <img width="186" alt="image" src="https://github.com/user-attachments/assets/ee5d8439-9885-4537-a2a7-1f2cf7bcb948">
 
-  
+- Olin siis aivan kassalla koko tehtävän kanssa pitkän aikaa. Leikin gdb:n kanssa pitkän aikaa ja kokeilin lähes kaikkea, mitä tuli mieleen enkä edennyt mihinkään suuntaan. Päätin lopulta avata tiedoston ghidralla ja löysin sieltä salasanan noin 15 - sekunnissa.
+
+<img width="652" alt="image" src="https://github.com/user-attachments/assets/b2b245c7-7930-4f30-a448-24a2615a6b84">
+
