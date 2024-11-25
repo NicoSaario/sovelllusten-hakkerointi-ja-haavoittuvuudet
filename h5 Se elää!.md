@@ -137,6 +137,22 @@ Sain ensin tuon passtr - salasanan ja lipun pelkällä ```strings```- komennolla
 
 - Tämän mukaan oikea salasana olisi siis ```dgEWm7n;```
 
+- Ei mennyt läpi. Huomasin, että olin tehnyt aika monta huolimattomuusvirhettä itse laskennassa ja tajusin samalla, ettei tuo pariton - parillinen tarkoita itse lukuja, vaan järjestystä. Eli 1 = 97, 2 = 110 jne.
+
+- Parillinen (0) 97 + 3 = 100 = d
+- Pariton (1) 110 - 7 = 103  = g
+- Parillinen (2) 76 + 3 = 79 = O
+- Pariton (3) 84 - 7 = 77 =  M
+- Parillinen (4) 106 + 3 = 109 = m
+- Pariton (5) 52 - 7 = 45 = -
+- Parillinen (6) 117 + 3 = 120 = x
+- Pariton (7) 56 - 7 = 49 = 1
+
+- Lopullinen salasana olisi siis ```dgOMm-x1```
+
+  <img width="365" alt="image" src="https://github.com/user-attachments/assets/b5c1899e-0eab-459d-ad6e-600fd1d8d6c1">
+
+- Yritin opetella tuota gbd käyttöä ja pääsin mielestäni aika pitkälle sen kanssa, mutta en olisi kyllä löytänyt tässä tehtävässä perille ilman ghidran apua. Pyrin palaamaan tähän tehtävään sitten, kun ymmärrän enemmän koko gbd:n toiminnasta
   
 ## c) Lab3. Kokeile Nora Crackmes harjoituksia tehtävä 3 ja 4 ja loput vapaaehtoisia. Tindall 2023: NoraCodes / crackmes.
 
