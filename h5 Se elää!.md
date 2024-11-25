@@ -91,7 +91,12 @@ Sain ensin tuon passtr - salasanan ja lipun pelkällä ```strings```- komennolla
 - Se jollain tapaa varmaan viittaa tohon "mAsdf3a", mikä näkyy Ghidrassakin, mutta en saa kyllä mitään tolkkua että miten.
 - Sen verran kauan on päätä hakattu nyt seinään, että pieni tauko tekee hyvää. Palaan myöhemmin
 
----Tähän siis luova tauko---25.11.2024 klo 01:15 - Aloitus oli 24.11.2024 noin klo 16
+---Tähän siis luova tauko---25.11.2024 klo 01:15 - Aloitus oli 24.11.2024 noin klo 17
+---Jatkuu 25.11 klo 10.30---
 
 ## c) Lab3. Kokeile Nora Crackmes harjoituksia tehtävä 3 ja 4 ja loput vapaaehtoisia. Tindall 2023: NoraCodes / crackmes.
 
+### Lähteet
+
+Intro to Debugging w/ GDB (PicoCTF 2022 #11 'gdb-test-drive'), John Hammond, 2022, Katsottavissa:
+https://www.youtube.com/watch?v=Tmdnsre9z7s&t=26s (Katsottu 25.11.2024)
