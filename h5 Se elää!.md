@@ -107,12 +107,37 @@ Sain ensin tuon passtr - salasanan ja lipun pelkällä ```strings```- komennolla
 > Funktio käy läpi jokaisen alkuperäisen merkkijonon merkin ja suorittaa sille seuraavat operaatiot:
 
 > Parillisilla indekseillä (index % 2 == 0):
-
 > Lisää merkin ASCII-koodiin arvon +3.
-> Parittomilla indekseillä (index % 2 != 0):
 
+> Parittomilla indekseillä (index % 2 != 0):
 > Vähennä merkin ASCII-koodista arvon -7.
 
+- Eli jos "anLTj4u8" ASCII-koodina on:
+97 110 76 84 106 52 117 56
+
+- Kokeillaan muuttaa se tuon avulla
+- 97 + 3 = 100
+- 110 + 3 = 103
+- 76 - 7 = 69
+- 84 + 3 = 87
+- 106 + 3 = 109
+- 52 + 3 = 55
+- 117 - 7 = 110
+- 56 + 3 = 59
+- Lopputulos: ```100 103 69 87 109 55 110 59```
+- Muutetaan se takaisin alkuperäiseen muotoon tämän avulla https://www.asciitable.com/
+- 100 = d
+- 103 = g
+- 69 = E
+- 87 = W
+- 109 = m
+- 55 = 7
+- 110 = n
+- 59 = ;
+
+- Tämän mukaan oikea salasana olisi siis ```dgEWm7n;```
+
+  
 ## c) Lab3. Kokeile Nora Crackmes harjoituksia tehtävä 3 ja 4 ja loput vapaaehtoisia. Tindall 2023: NoraCodes / crackmes.
 
 ### Lähteet
