@@ -94,6 +94,25 @@ Sain ensin tuon passtr - salasanan ja lipun pelkällä ```strings```- komennolla
 ---Tähän siis luova tauko---25.11.2024 klo 01:15 - Aloitus oli 24.11.2024 noin klo 17
 ---Jatkuu 25.11 klo 10.30---
 
+- Jatkoin vähän lisää tuon ghidran pyörittämistä ja selailin lisää tuota mAsdf3a - kohtaa ja kiinnitti huomiota tuo +3 ja + -7. Sen verran näitä on tullu pyöriteltyä viimeaioina, että ymmärsin niiden liittyvän jollain tavalla salasanaan.
+
+<img width="878" alt="image" src="https://github.com/user-attachments/assets/e91a7f18-3e65-4c7f-8fff-4ab414e22832">
+
+
+- Kysyin jälleen ChatGPT:ltä, että miten nuo voisivat liittyä tuohon salasanaan, johon se vastasi näin:
+
+
+> Käydään tämä askel askeleelta:
+
+> Funktio käy läpi jokaisen alkuperäisen merkkijonon merkin ja suorittaa sille seuraavat operaatiot:
+
+> Parillisilla indekseillä (index % 2 == 0):
+
+> Lisää merkin ASCII-koodiin arvon +3.
+> Parittomilla indekseillä (index % 2 != 0):
+
+> Vähennä merkin ASCII-koodista arvon -7.
+
 ## c) Lab3. Kokeile Nora Crackmes harjoituksia tehtävä 3 ja 4 ja loput vapaaehtoisia. Tindall 2023: NoraCodes / crackmes.
 
 ### Lähteet
