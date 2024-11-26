@@ -155,8 +155,17 @@ Sain ensin tuon passtr - salasanan ja lipun pelkällä ```strings```- komennolla
 - Yritin opetella tuota gbd käyttöä ja pääsin mielestäni aika pitkälle sen kanssa, mutta en olisi kyllä löytänyt tässä tehtävässä perille ilman ghidran apua. Pyrin palaamaan tähän tehtävään sitten, kun ymmärrän enemmän koko gbd:n toiminnasta
   
 ## c) Lab3. Kokeile Nora Crackmes harjoituksia tehtävä 3 ja 4 ja loput vapaaehtoisia. Tindall 2023: NoraCodes / crackmes.
+Tämän teen vielä. Aika ei riittänyt
 
 ### Lähteet
 
 Intro to Debugging w/ GDB (PicoCTF 2022 #11 'gdb-test-drive'), John Hammond, 2022, Katsottavissa:
 https://www.youtube.com/watch?v=Tmdnsre9z7s&t=26s (Katsottu 25.11.2024)
+
+https://www.asciitable.com/
+
+ChatGPT - molemmissa apuna
+
+Läksyt, Tero Karvinen, Luettavissa:
+https://terokarvinen.com/application-hacking/#laksyt
+
