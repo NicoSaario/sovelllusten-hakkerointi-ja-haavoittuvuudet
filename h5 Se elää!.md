@@ -169,3 +169,6 @@ ChatGPT - molemmissa apuna
 Läksyt, Tero Karvinen, Luettavissa:
 https://terokarvinen.com/application-hacking/#laksyt
 
+Intro to Debugging w/ GDB (PicoCTF 2022 #11 'gdb-test-drive'), John Hammond, Katsottavissa:
+https://www.youtube.com/watch?v=Tmdnsre9z7s&t=26s (katsottu 24.11.2024)
+
