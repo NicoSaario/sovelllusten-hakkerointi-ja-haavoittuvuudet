@@ -79,7 +79,16 @@ Työkalut:
 
 Valitsin [ProtonVPN](https://github.com/ProtonVPN/android-app), koska käytän sitä jatkuvasti arjessa.
  - Latasin APK:n täältä https://f-droid.org/packages/ch.protonvpn.android/ ja valitsin uusimman paketin
+- 
 
+1. ZIP
+- Latasin tosiaan APK - paketin ja käytin ```unzip```ja paketin nimi
+- Tein kansion ```mkdir protonvpn```ja extractasin sen sinne käyttämällä graafista käyttöliittymää, sillä hukkasin hetkeksi koko unzipatun paketin
+  ![image](https://github.com/user-attachments/assets/6209a9e7-ee84-45e3-8904-0410d5e44905)
+- Nyt pääsee tutkailemaan koko sisältöä
+
+
+2. JADX 
 
 ## Lähteet:
 
