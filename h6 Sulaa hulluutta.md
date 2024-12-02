@@ -129,7 +129,7 @@ Tässä alussa valittaa versiosta:
 
 - ![image](https://github.com/user-attachments/assets/69be0b70-0e8c-4a7d-bbd4-b7683df14582)
 
-Ongelma korjautui sillä, että suljin terminalin, avasin uudelleen ja annoin komennon ```java -Xms512m  -jar your-application.jar```. Annettiin siis lisää muistialueen kokoa, jotta se pystyy käsittelemään noinkin ison tiedoston.
+Ongelma korjautui sillä, että suljin terminalin, avasin uudelleen ja annoin komennon ```java -Xms512m  -jar Bytecode-Viewer-2.12.jar```. Annettiin siis lisää muistialueen kokoa, jotta se pystyy käsittelemään noinkin ison tiedoston.
 
 ![image](https://github.com/user-attachments/assets/afa1a92c-abe1-4a12-9537-5f4609e4164a)
 
