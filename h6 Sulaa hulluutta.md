@@ -74,4 +74,4 @@ Yritin myös Ghidralla saada tiedoston auki, mutta se ei tunnistanut eri kielill
 - Can a jpeg contain tiff image data?, GraphicDesign, Luettavissa: https://graphicdesign.stackexchange.com/questions/109705/can-a-jpeg-contain-tiff-image-data (luettu 02/12/2024)
 - What is a TIFF file?, Adobe, Luettavissa: https://www.adobe.com/creativecloud/file-types/image/raster/tiff-file.html?msockid=2085557b83266da91351410e82a96cfc (luettu 02/12/2024)
 - binwalk Command Examples in Linux, by admin, Luettavissa: https://www.thegeekdiary.com/binwalk-command-examples-in-linux/ (luettu 02/12/2024)
-- 
+- How can doc/docx files be converted to markdown or structured text?, Modified 4 months ago, Luettavissa: https://stackoverflow.com/questions/16383237/how-can-doc-docx-files-be-converted-to-markdown-or-structured-text (luettu 02/12/2024)
