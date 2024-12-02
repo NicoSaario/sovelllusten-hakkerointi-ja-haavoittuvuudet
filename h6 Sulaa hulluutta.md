@@ -77,6 +77,10 @@ Työkalut:
 2. [JADX](https://github.com/skylot/jadx)
 3. [Bytecode-viewer](https://github.com/Konloch/bytecode-viewer/)
 
+Valitsin [ProtonVPN](https://github.com/ProtonVPN/android-app), koska käytän sitä jatkuvasti arjessa.
+ - Latasin APK:n täältä https://f-droid.org/packages/ch.protonvpn.android/ ja valitsin uusimman paketin
+
+
 ## Lähteet:
 
 - Can a jpeg contain tiff image data?, GraphicDesign, Luettavissa: https://graphicdesign.stackexchange.com/questions/109705/can-a-jpeg-contain-tiff-image-data (luettu 02/12/2024)
