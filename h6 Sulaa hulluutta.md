@@ -89,6 +89,26 @@ Valitsin [ProtonVPN](https://github.com/ProtonVPN/android-app), koska käytän s
 
 
 2. JADX 
+- Latasin sen täältä: https://github.com/skylot/jadx/releases/tag/v1.5.1
+- Unzippasin haluttuun paikkaan ```mkdir jadx``` ```unzip jadx-1.5.1.zip -d /home/nicos/Downloads/jadx```
+- Avasin gui-liittymällä ```./jadx-gui```. Tää koko käyttö on ensimmäistä kertaa, joten tehdään ja mietitään samalla
+
+![image](https://github.com/user-attachments/assets/564a8185-0eb6-47fc-88af-a91c26f27912)
+
+-> Open file -> ProtonVPN - unzipattu tiedosto - Latailee (meni noin 60s)
+- Avautu tämmöne näkymä
+
+![image](https://github.com/user-attachments/assets/6757391e-8edf-4fbf-89a4-8520ae7d1dea)
+
+- Voi käytännössä tutkia mitä tahansa kansioo ja sen sisältöä
+- Esimerkkinä hain Area - codesista Suomen
+
+![image](https://github.com/user-attachments/assets/11702751-8cd8-49e0-8366-03e288061902)
+
+- Kätevä Gui. Helppokäyttöinen, helposti luettava ja kaikki muutaman klikkauksen päässä!
+
+
+3. Bytecode-viewer
 
 ## Lähteet:
 
