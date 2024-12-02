@@ -118,6 +118,17 @@ Valitsin [ProtonVPN](https://github.com/ProtonVPN/android-app), koska käytän s
 
 ![image](https://github.com/user-attachments/assets/f31f5882-655e-40b3-814b-b09e68b00701)
 
+- Jatkuvasti tyssää ohjelma ja valittaa java-versiosta. Tähän jämähtää:
+
+  ![image](https://github.com/user-attachments/assets/5c37dcaa-918b-4536-b929-d4a7755419d4)
+
+Tässä alussa valittaa versiosta: 
+
+![image](https://github.com/user-attachments/assets/1575b60d-ab1f-42cf-9498-5119dc68ddb7)
+
+
+- ![image](https://github.com/user-attachments/assets/69be0b70-0e8c-4a7d-bbd4-b7683df14582)
+
 
 
 ## Lähteet:
