@@ -129,6 +129,12 @@ Tässä alussa valittaa versiosta:
 
 - ![image](https://github.com/user-attachments/assets/69be0b70-0e8c-4a7d-bbd4-b7683df14582)
 
+Ongelma korjautui sillä, että suljin terminalin, avasin uudelleen ja annoin komennon ```java -Xms512m  -jar your-application.jar```. Annettiin siis lisää muistialueen kokoa, jotta se pystyy käsittelemään noinkin ison tiedoston.
+
+![image](https://github.com/user-attachments/assets/afa1a92c-abe1-4a12-9537-5f4609e4164a)
+
+Bytecode-viewer näyttää edellisen kanssa hyvin samalta, mutta siinä on kaksi näkymää: Decompiler ja Disassembler. Käyttöliittymä on tässäkin hyvin näppärä ja tietoa koodista saa huomattavasti yksityiskohtaisemmin. Koodit on jaettu käsittääkseni useampaan eri kansioon ja kansioita on paljon enemmän nähtävissä.
+
 
 
 ## Lähteet:
@@ -137,3 +143,4 @@ Tässä alussa valittaa versiosta:
 - What is a TIFF file?, Adobe, Luettavissa: https://www.adobe.com/creativecloud/file-types/image/raster/tiff-file.html?msockid=2085557b83266da91351410e82a96cfc (luettu 02/12/2024)
 - binwalk Command Examples in Linux, by admin, Luettavissa: https://www.thegeekdiary.com/binwalk-command-examples-in-linux/ (luettu 02/12/2024)
 - How can doc/docx files be converted to markdown or structured text?, Modified 4 months ago, Luettavissa: https://stackoverflow.com/questions/16383237/how-can-doc-docx-files-be-converted-to-markdown-or-structured-text (luettu 02/12/2024)
+- Kotitehtävät: https://terokarvinen.com/application-hacking/#laksyt
