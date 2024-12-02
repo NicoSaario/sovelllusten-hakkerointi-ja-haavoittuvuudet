@@ -16,5 +16,6 @@ Oracle VM VirtualBox ja Debian 12 Bookworm
 ## a) Lab1. Tutkiminen mikä on ohjelmassa vialla ja miten se korjataan. lab1.zip
 
 Aloitin tutkimaan sitä tarkemmin komennolla ```strings h1.jpg |less```ja kävin koko pitkän litanian läpi:
-- Törmäsin tähän: 
+- Törmäsin tähän:  ![image](https://github.com/user-attachments/assets/e522102b-c29d-46aa-8429-39f4efc5a587)
+
 
