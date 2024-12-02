@@ -61,7 +61,7 @@ Yritin myös Ghidralla saada tiedoston auki, mutta se ei tunnistanut eri kielill
  - Kurssi on opettanut ainakin tulkitsemaan asioita niin, ettei kaikki ole aina sitä, miltä näyttää
  - Käytin siis ```file 494FS.zip```- komentoa ja paljastui, että siellähän se word-tiedosto piileskelee
 - ![Näyttökuva 2024-12-02 205509](https://github.com/user-attachments/assets/db6720d6-7da8-4078-91bd-9afc4832aa25)
-- Oon nyt vähän liian syvällä tässä, mutta haluan saada sen luettavaan muotoon
+- Oon nyt vähän liian syvällä tässä eikä se oikeestaan tähän tehtävään kuulu, mutta haluan saada sen luettavaan muotoon
 - Kokeilin avata selaimella, microlla, silti ei tulosta
 - Halusin saada sen jollain muulla, kuin Wordillä auki - sillä se luultavasti olisi näkynyt heti
 - Nyt selvittelin hieman, miten docx - tiedoston saa markdowniksi
@@ -72,7 +72,6 @@ Yritin myös Ghidralla saada tiedoston auki, mutta se ei tunnistanut eri kielill
 - ![image](https://github.com/user-attachments/assets/10ae4d70-2c4b-410b-a66f-1f7f3825ccdf)
 - Sain, kuin sainkin sen auki ja nyt se on vähän helpommin luettavissa
 - Kyseessä siis *50 Predictions for the Next 50 years*
-- 
 
 ### c) FOSS (Free Android OpenSource). Tutustu Android-sovelluksiin Offan (2024) listalta: https://github.com/offa/android-foss Android FOSS. Valitse listalla itsellesi mielenkiintoisin applikaatio ja mene sen GitHubiin. Lataa ohjelman APK itsellesi ja käytä seuraavia työkaluja tutustuaksesi, miten APK:n voi avata.
 
@@ -83,16 +82,16 @@ Työkalut:
 
 Valitsin [ProtonVPN](https://github.com/ProtonVPN/android-app), koska käytän sitä jatkuvasti arjessa.
  - Latasin APK:n täältä https://f-droid.org/packages/ch.protonvpn.android/ ja valitsin uusimman paketin
-- 
 
-1. ZIP
+
+### 1. ZIP
 - Latasin tosiaan APK - paketin ja käytin ```unzip```ja paketin nimi
 - Tein kansion ```mkdir protonvpn```ja extractasin sen sinne käyttämällä graafista käyttöliittymää, sillä hukkasin hetkeksi koko unzipatun paketin
   ![image](https://github.com/user-attachments/assets/6209a9e7-ee84-45e3-8904-0410d5e44905)
 - Nyt pääsee tutkailemaan koko sisältöä
 
 
-2. JADX 
+### 2. JADX 
 - Latasin sen täältä: https://github.com/skylot/jadx/releases/tag/v1.5.1
 - Unzippasin haluttuun paikkaan ```mkdir jadx``` ```unzip jadx-1.5.1.zip -d /home/nicos/Downloads/jadx```
 - Avasin gui-liittymällä ```./jadx-gui```. Tää koko käyttö on ensimmäistä kertaa, joten tehdään ja mietitään samalla
@@ -112,7 +111,7 @@ Valitsin [ProtonVPN](https://github.com/ProtonVPN/android-app), koska käytän s
 - Kätevä Gui. Helppokäyttöinen, helposti luettava ja kaikki muutaman klikkauksen päässä!
 
 
-3. Bytecode-viewer
+### 3. Bytecode-viewer
 - Sen latasin täältä: https://github.com/konloch/bytecode-viewer/releases 2.12.jar - tiedosto
 - Githubin ohjeiden mukaan käytin komentoa: ```java -jar Bytecode-Viewer-2.12.jar```
 - Tuli seuraava näkymä:
