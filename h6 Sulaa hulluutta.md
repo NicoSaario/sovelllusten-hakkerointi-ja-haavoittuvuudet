@@ -47,6 +47,7 @@ Yritin myös Ghidralla saada tiedoston auki, mutta se ei tunnistanut eri kielill
 
 - ![image](https://github.com/user-attachments/assets/ed192638-42b4-49ae-a78e-0b9565f8e9ce)
 
+ - Taitaa kaikki mielenkiintoinen olla sen 'word' kansion sisällä, mutta löytyi sitä havaintoja muualtakin
 
 ## Lähteet:
 
