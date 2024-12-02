@@ -39,11 +39,18 @@ Yritin myös Ghidralla saada tiedoston auki, mutta se ei tunnistanut eri kielill
 
 ![image](https://github.com/user-attachments/assets/64b821c4-26ee-49bc-a55b-61a8dcfab93c)
 
+- Sit piti vähän googletella, että miten nuo Zipit saa auki ja löysin https://www.thegeekdiary.com/binwalk-command-examples-in-linux/ esimerkkejä binwalkin käytöstä.
+- Löyisin komennon, joka purkaa kaikki tiedostot kerralla ```binwalk -e <tiedosto tähän>```
+- ![image](https://github.com/user-attachments/assets/fd347885-495e-42e4-a76b-21fbb83aa49e)
+- Se purki siis tuon koko hela hoidon ja lähdetään tutkimaan sitä lisää:
+- ![image](https://github.com/user-attachments/assets/ea432430-e1ba-477b-b1d5-1d4f1d59c68d)
 
-
+- ![image](https://github.com/user-attachments/assets/ed192638-42b4-49ae-a78e-0b9565f8e9ce)
 
 
 ## Lähteet:
 
 - Can a jpeg contain tiff image data?, GraphicDesign, Luettavissa: https://graphicdesign.stackexchange.com/questions/109705/can-a-jpeg-contain-tiff-image-data (luettu 02/12/2024)
 - What is a TIFF file?, Adobe, Luettavissa: https://www.adobe.com/creativecloud/file-types/image/raster/tiff-file.html?msockid=2085557b83266da91351410e82a96cfc (luettu 02/12/2024)
+- binwalk Command Examples in Linux, by admin, Luettavissa: https://www.thegeekdiary.com/binwalk-command-examples-in-linux/ (luettu 02/12/2024)
+- 
