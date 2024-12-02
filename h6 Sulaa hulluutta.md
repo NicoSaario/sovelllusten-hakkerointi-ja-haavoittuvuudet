@@ -109,6 +109,16 @@ Valitsin [ProtonVPN](https://github.com/ProtonVPN/android-app), koska käytän s
 
 
 3. Bytecode-viewer
+- Sen latasin täältä: https://github.com/konloch/bytecode-viewer/releases 2.12.jar - tiedosto
+- Githubin ohjeiden mukaan käytin komentoa: ```java -jar Bytecode-Viewer-2.12.jar```
+- Tuli seuraava näkymä:
+![image](https://github.com/user-attachments/assets/233db59d-b770-43bb-8a3e-a835c2db91e6)
+- Sit voi käyttää "File->Add" ja hakea tiedosto, joka haluttiin
+- Hain saman tiedoston jälleen ja takaana alkoi koodi raksuttaa
+
+![image](https://github.com/user-attachments/assets/f31f5882-655e-40b3-814b-b09e68b00701)
+
+
 
 ## Lähteet:
 
