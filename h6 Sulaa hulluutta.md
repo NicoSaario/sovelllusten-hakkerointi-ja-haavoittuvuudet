@@ -50,6 +50,10 @@ Yritin myös Ghidralla saada tiedoston auki, mutta se ei tunnistanut eri kielill
  - Taitaa kaikki mielenkiintoinen olla sen 'word' kansion sisällä, mutta löytyi sitä havaintoja muualtakin
  - Sieltä löyty document.xml
  - Tutkin sitä ```strings document.xml```
+
+![Näyttökuva 2024-12-02 205339](https://github.com/user-attachments/assets/fc17d5b2-021a-48d2-ab0b-c334ca7c3851)
+
+
  - Löytyhän sitä luettavaa tekstiä vihdoin. En kuitenkaan saanut missään järkevässä muodossa sitä auki, joten tutkin muita kansioita
  - Yritin unzipata tuota 494FS.zip - tiedostoa, mutta se ilmoitti ettei tiedosto ehkä ole zipfile
 - ![Näyttökuva 2024-12-02 205604](https://github.com/user-attachments/assets/5439b7e4-af98-4496-a588-9dd16efe331e)
