@@ -32,8 +32,18 @@ Yritin myös Ghidralla saada tiedoston auki, mutta se ei tunnistanut eri kielill
 
 ![image](https://github.com/user-attachments/assets/3f3bb1b0-555e-4f19-aece-58eb0a2bb2e2)
 
+- Binwalkilla löytyi JPEG, TIFF ja Zip - tiedostoja
+- TIFF on siis Tag Image File Format - korkealaatuiset kuvat, jotka yleensä on suurempi tiedosto eikä menetä kuvanlaatua https://www.adobe.com/creativecloud/file-types/image/raster/tiff-file.html?msockid=2085557b83266da91351410e82a96cfc
+- Selvittelin hetken aikaa siitä ihan mielenkiinnosta, koska tuo formaatti ei itselleni ole niin tuttu. JPEG hukkaa usein tietoa, mutta TIFF ei. Usein korkealaatuisiin/isoihin kuviin käytetään ensin TIFF - formaattia ja tämän jälkeen se lähetetään eteenpäin JPEG - formaatissa, joka pakkaa sen pienempään kokoon. Samaan aikaan on kuitenkin mahdollista (kuten tässä), että sinne sisään on "piilotettu" muutakin tietoa.
 
 
 ![image](https://github.com/user-attachments/assets/64b821c4-26ee-49bc-a55b-61a8dcfab93c)
 
 
+
+
+
+## Lähteet:
+
+- Can a jpeg contain tiff image data?, GraphicDesign, Luettavissa: https://graphicdesign.stackexchange.com/questions/109705/can-a-jpeg-contain-tiff-image-data (luettu 02/12/2024)
+- What is a TIFF file?, Adobe, Luettavissa: https://www.adobe.com/creativecloud/file-types/image/raster/tiff-file.html?msockid=2085557b83266da91351410e82a96cfc (luettu 02/12/2024)
