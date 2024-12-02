@@ -48,6 +48,24 @@ Yritin myös Ghidralla saada tiedoston auki, mutta se ei tunnistanut eri kielill
 - ![image](https://github.com/user-attachments/assets/ed192638-42b4-49ae-a78e-0b9565f8e9ce)
 
  - Taitaa kaikki mielenkiintoinen olla sen 'word' kansion sisällä, mutta löytyi sitä havaintoja muualtakin
+ - Sieltä löyty document.xml
+ - Tutkin sitä ```strings document.xml```
+ - Löytyhän sitä luettavaa tekstiä vihdoin. En kuitenkaan saanut missään järkevässä muodossa sitä auki, joten tutkin muita kansioita
+ - Yritin unzipata tuota 494FS.zip - tiedostoa, mutta se ilmoitti ettei tiedosto ehkä ole zipfile
+ - Kurssi on opettanut ainakin tulkitsemaan asioita niin, ettei kaikki ole aina sitä, miltä näyttää
+ - Käytin siis ```file 494FS.zip```- komentoa ja paljastui, että siellähän se word-tiedosto piileskelee
+
+- Oon nyt vähän liian syvällä tässä, mutta haluan saada sen luettavaan muotoon
+- Kokeilin avata selaimella, microlla, silti ei tulosta
+- Halusin saada sen jollain muulla, kuin Wordillä auki - sillä se luultavasti olisi näkynyt heti
+- Nyt selvittelin hieman, miten docx - tiedoston saa markdowniksi
+- https://stackoverflow.com/questions/16383237/how-can-doc-docx-files-be-converted-to-markdown-or-structured-text selvisi, että pandocilla saa suoraan ilman sen suurempia kiemuroita
+- ```sudo apt-get install -y pandoc```
+- ```pandoc -f docx -t markdown 494F5.zip -o 494F5.markdown```
+- ```micro 494F5.markdown```
+- ![image](https://github.com/user-attachments/assets/10ae4d70-2c4b-410b-a66f-1f7f3825ccdf)
+- Sain, kuin sainkin sen auki ja nyt se on vähän helpommin luettavissa
+- Kyseessä siis *50 Predictions for the Next 50 years*
 
 ## Lähteet:
 
