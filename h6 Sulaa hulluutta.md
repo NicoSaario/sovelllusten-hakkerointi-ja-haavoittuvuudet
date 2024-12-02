@@ -52,9 +52,11 @@ Yritin myös Ghidralla saada tiedoston auki, mutta se ei tunnistanut eri kielill
  - Tutkin sitä ```strings document.xml```
  - Löytyhän sitä luettavaa tekstiä vihdoin. En kuitenkaan saanut missään järkevässä muodossa sitä auki, joten tutkin muita kansioita
  - Yritin unzipata tuota 494FS.zip - tiedostoa, mutta se ilmoitti ettei tiedosto ehkä ole zipfile
+- ![Näyttökuva 2024-12-02 205604](https://github.com/user-attachments/assets/5439b7e4-af98-4496-a588-9dd16efe331e)
+ - 
  - Kurssi on opettanut ainakin tulkitsemaan asioita niin, ettei kaikki ole aina sitä, miltä näyttää
  - Käytin siis ```file 494FS.zip```- komentoa ja paljastui, että siellähän se word-tiedosto piileskelee
-
+- ![Näyttökuva 2024-12-02 205509](https://github.com/user-attachments/assets/db6720d6-7da8-4078-91bd-9afc4832aa25)
 - Oon nyt vähän liian syvällä tässä, mutta haluan saada sen luettavaan muotoon
 - Kokeilin avata selaimella, microlla, silti ei tulosta
 - Halusin saada sen jollain muulla, kuin Wordillä auki - sillä se luultavasti olisi näkynyt heti
