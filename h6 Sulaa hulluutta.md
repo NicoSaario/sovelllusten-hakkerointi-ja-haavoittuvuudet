@@ -68,6 +68,14 @@ Yritin myös Ghidralla saada tiedoston auki, mutta se ei tunnistanut eri kielill
 - ![image](https://github.com/user-attachments/assets/10ae4d70-2c4b-410b-a66f-1f7f3825ccdf)
 - Sain, kuin sainkin sen auki ja nyt se on vähän helpommin luettavissa
 - Kyseessä siis *50 Predictions for the Next 50 years*
+- 
+
+### c) FOSS (Free Android OpenSource). Tutustu Android-sovelluksiin Offan (2024) listalta: https://github.com/offa/android-foss Android FOSS. Valitse listalla itsellesi mielenkiintoisin applikaatio ja mene sen GitHubiin. Lataa ohjelman APK itsellesi ja käytä seuraavia työkaluja tutustuaksesi, miten APK:n voi avata.
+
+Työkalut:
+1. ZIP
+2. [JADX](https://github.com/skylot/jadx)
+3. [Bytecode-viewer](https://github.com/Konloch/bytecode-viewer/)
 
 ## Lähteet:
 
