@@ -13,7 +13,7 @@ Aika: Itä-Euroopan normaaliaika Aikavyöhyke: Suomi (UTC+2) 02/12/2024 (pvm/kk/
 Kaikissa testaukseen liittyvässä:
 Oracle VM VirtualBox ja Debian 12 Bookworm
 
-## a) Lab1. Tutkiminen mikä on ohjelmassa vialla ja miten se korjataan. lab1.zip
+## a) Tutki tiedostoa h1.jpg jo opituilla työkaluilla. Mitä saat selville?
 
 Aloitin tutkimaan sitä tarkemmin komennolla ```strings h1.jpg |less```ja kävin koko pitkän litanian läpi:
 - Törmäsin tähän:  ![image](https://github.com/user-attachments/assets/e522102b-c29d-46aa-8429-39f4efc5a587)
@@ -22,3 +22,4 @@ Aloitin tutkimaan sitä tarkemmin komennolla ```strings h1.jpg |less```ja kävin
 - ![image](https://github.com/user-attachments/assets/5a52a02c-3778-4ad9-90b4-bd267d0626be)
 - Myös tämä kiinnitti huomion: ![image](https://github.com/user-attachments/assets/7db2e8f0-e7ab-4703-bfc5-ff3afe6c250b)
 
+Yritin myös Ghidralla saada tiedoston auki, mutta se ei tunnistanut eri kielillä mitään.
