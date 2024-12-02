@@ -23,3 +23,17 @@ Aloitin tutkimaan sitä tarkemmin komennolla ```strings h1.jpg |less```ja kävin
 - Myös tämä kiinnitti huomion: ![image](https://github.com/user-attachments/assets/7db2e8f0-e7ab-4703-bfc5-ff3afe6c250b)
 
 Yritin myös Ghidralla saada tiedoston auki, mutta se ei tunnistanut eri kielillä mitään.
+
+
+## b) Tutki tiedostoa h1.jpg binwalk:lla. Mitä tietoja löydät nyt tiedostosta? Mitä työkalua käyttäisit tiedostojen erottamiseen? (Huomaa, että binwalk versio 2.x ja 3.x toimivat eri tavalla.)
+
+- Jouduin ensin binwalkin asentelemaan ```sudo apt-get install binwalk```
+- Version 2.3.4
+
+![image](https://github.com/user-attachments/assets/3f3bb1b0-555e-4f19-aece-58eb0a2bb2e2)
+
+
+
+![image](https://github.com/user-attachments/assets/64b821c4-26ee-49bc-a55b-61a8dcfab93c)
+
+
