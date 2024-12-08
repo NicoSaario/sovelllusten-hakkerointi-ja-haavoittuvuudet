@@ -130,6 +130,10 @@ Eli siis muunnos on tehty, mutta käsittääkseni tuo base64 muunsi sen vasta al
 
 ![image](https://github.com/user-attachments/assets/18fb0cf8-3a12-4793-bd25-572ac9562903)
 
+Tässä vielä hetken aikaa ihmettelin, ettei tuo -n - komento tee mitään. Kokeilin sitä base64 ja eri variaatioita, mut sit lopulta otin base64 sieltä perästä pois ja löytyihän sieltä myrkkysieniä:
+
+![image](https://github.com/user-attachments/assets/2af9ce05-043d-4fb8-8bf1-6c98e972d2de)
+
 
 ## b) 2. Fixed XOR.
 
