@@ -65,9 +65,24 @@ Hyökkäystyypit:
 - Chosen-key attack - "Valitun avaimen hyökkäys" - Ei voi suoranaisesti valita avainta, mutta tietää kahden avaimen suhteen
 - Rubber-hose cryptanalysis - "Pakottaminen" - Voi uhkailla, käyttää väkivaltaa, lahjoa jotain avaimen saamiseksi
 
+Ainoa tunnettu esimerkki täysin turvallisesta salausmentelmästä on kertakäyttöinen *salakirjoitus*
+Useimmat käytettävät salausmenetelmät perustuvat Laskennalliseen turvallisuuteen. Sen murtaminen vie niin paljon laskentavoimaa ja aikaa, ettei se ole käytännössä mahdollista. Tietysti - mitä voimakkaammat välineet, sen helpompi murtaa. Eli tulevaisuudessa näidenkin pitää kehittyä.
+Brute-force-attack - Kokeillaan kaikkia mahdollisia avaimia, kunnes löydetään oikea. Tehoton pitkien avainten kanssa, koska avainten määrä kasvaa avaimen pituuden kanssa.
+
   
 ### 1.4 Simple XOR
+0 + 1 = 1 
+1 + 0 = 1
+1 + 1 = 0
+a + a = 0
+a + b + b = a
+
+- Viimeinen lause oli hyvin kuvastava: "Saattaa pitää pikkusiskosi lukemasta tiedostojasi, mutta ei pysäytä kryptoanalyytikkoa muutamaa minuuttia kauempaa"
+- XOR on heikko, koska käytännössä sen selvittäminen hoituu pelkästään laskemilla. Pelkästään englannin kielen ominaisuudet ja niiden toistuvat kuviot auttaa murtamaan salauksen.
+
 ### 1.7 Large Numbers
+- Tässä oikeestaan vain laitetaan lukuja perspektiiviin
+- Esimerkiksi "The probability of guessing a valid Bitcoin private key is 1 in 2²⁵⁶" (lähde)[https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/08_chap01.html#chap01-sec007]
 Karvinen 2024: Python Basics for Hackers
 Vapaaehtoinen: Karvinen 2024: Get Started Micro Editor
 Vapaaehtoinen: Karvinen 2024: Getting Started with Cryptopals using Python
