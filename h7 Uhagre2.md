@@ -131,6 +131,10 @@ Eli siis muunnos on tehty, mutta käsittääkseni tuo base64 muunsi sen vasta al
 ![image](https://github.com/user-attachments/assets/18fb0cf8-3a12-4793-bd25-572ac9562903)
 
 
+## b) 2. Fixed XOR.
+
+- Lähdin samalla tavalla liikkeelle tässä tehtävässä, eli syötin ```echo 1c0111001f010100061a024b53535009181c |xxd -r -ps |base64```
+- Se palautti ```HAERAB8BAQAGGgJLU1NQCRgc```
 
 ## Lähteet
 
