@@ -57,6 +57,12 @@ Public key - Algorithms
 - Salausavain = Public key
 - Purkuavain = Private key
 
+Hyökkäystyypit:
+- Ciphertext-only attack - "Salatekstin hyökkäys" - Vain salattu viesti. Yrittää päätellä alkuperäisen viestin tai avaimen vain salatun tekstin perusteella
+- Know-plaintext attack - "Tunnetun selkokielen hyökkkäys" - Salattu sekä vastaava alkuperäinen viesti. Voi löytää salausavaimen tai purkualgoritmin tätä kautta.
+- Chosen-plaintext attack - "Valitun selkokielen hyökkäys" - Voi valita sen viestin, jonka salaa. Voi sitä kautta saada vihjeitä salausavaimesta.
+- Adaptive-chosen-plaintext attack - "Adaptiivinen valitun selkokielen hyökkäys" - Voi muuttaa viestiä edellisen salauksen perusteella.
+
 ### 1.4 Simple XOR
 ### 1.7 Large Numbers
 Karvinen 2024: Python Basics for Hackers
