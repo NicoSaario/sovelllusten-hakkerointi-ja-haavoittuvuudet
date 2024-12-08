@@ -62,7 +62,10 @@ Hyökkäystyypit:
 - Know-plaintext attack - "Tunnetun selkokielen hyökkkäys" - Salattu sekä vastaava alkuperäinen viesti. Voi löytää salausavaimen tai purkualgoritmin tätä kautta.
 - Chosen-plaintext attack - "Valitun selkokielen hyökkäys" - Voi valita sen viestin, jonka salaa. Voi sitä kautta saada vihjeitä salausavaimesta.
 - Adaptive-chosen-plaintext attack - "Adaptiivinen valitun selkokielen hyökkäys" - Voi muuttaa viestiä edellisen salauksen perusteella.
+- Chosen-key attack - "Valitun avaimen hyökkäys" - Ei voi suoranaisesti valita avainta, mutta tietää kahden avaimen suhteen
+- Rubber-hose cryptanalysis - "Pakottaminen" - Voi uhkailla, käyttää väkivaltaa, lahjoa jotain avaimen saamiseksi
 
+  
 ### 1.4 Simple XOR
 ### 1.7 Large Numbers
 Karvinen 2024: Python Basics for Hackers
