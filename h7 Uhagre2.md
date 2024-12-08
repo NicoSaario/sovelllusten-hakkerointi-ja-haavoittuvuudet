@@ -85,10 +85,12 @@ a + b + b = a
 - Kuten luvussa 1.1 "Security of Algorithms" mainitaan - Jos algorithmin monimutkaisuus on: 2^128, tarvitaan 2^128 operaatiota sen murtamiseen. Vaikka kone tekisi miljoona operaatiota joka sekuntti, se vie 10^19 vuotta ja todennäköisyys on 3 - kertainen U.S loton pääpotin voittamisen.
 
 
-### Karvinen 2024: Python Basics for Hackers
-
-
-
+### Karvinen 2024: Python Basics for Hackers https://terokarvinen.com/python-for-hackers/
+Saa käyntiin ```python3```
+- Helppo tehdä laskuja, esim 2*2
+- Koodia voi suoraan testata painamalla F5 ```micro --plugin install runit```
+- Pyyttonilla voi suoraan muuttaa numerot eri muotoihin, esim ```ord("T")```, joka palauttaa arvon 84 ja ```chr(84)``` joka palauttaa 'T'. Hexan voi myös muuntaa suoraan ```hex(84)``` --> '0x54' *0 tarkoittaa hexaa, ei liity käytännössä numeroon millään tavalla*. Binääri ```bin(84)``` -> '0b1010100'. Octal ```oct(84) -> '0o124'
+- f-string -> Pistää f ennen stringiä, se tulostaa kaikki näiden sisältä {}
 
 ### Vapaaehtoinen: Karvinen 2024: Get Started Micro Editor
 ### Vapaaehtoinen: Karvinen 2024: Getting Started with Cryptopals using Python
