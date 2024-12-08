@@ -13,8 +13,20 @@ Oracle VM VirtualBox ja Debian 12 Bookworm
 
 ## x) Lue/katso/kuuntele ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokoneella, vain lukeminen tai kuunteleminen ja tiivistelmä riittää. Tiivistämiseen riittää muutama ranskalainen viiva.)
 
-€ Schneier 2015: Applied Cryptography, 20ed: Chapter 1: Foundations: [https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/08_chap01.html#chap01-sec001]
+
+€ Schneier 2015: Applied Cryptography, 20ed: Chapter 1: Foundations: https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/08_chap01.html#chap01-sec001
+
 1.1 Terminology ("Historical Terms" loppuun)
+
+- Salakirjoitus on viesti joka on muunnettu lukemattomaan muotoon
+- Message - Plaintext (cleartext)
+- Disguising message - Encryption
+- Encrypted message - Ciphertext
+- Ciphertext to plaintext - Decryption
+
+- Autehtication, Integrity, Nonrepudiation - Vastaanottajan pitää pystyä varmentamaan lähde sekä se, ettei viestiä ole muuteltu. Ei pitäisi myöskään olla mahdollista kieltää viestin lähettämistä myöhemmin.
+
+- Cryptographic algorithm (cipher) - matemaattinen funktio encryptaamiseen sekä decryptaamiseen
 
 1.4 Simple XOR
 1.7 Large Numbers
