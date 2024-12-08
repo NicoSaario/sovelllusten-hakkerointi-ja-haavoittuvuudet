@@ -85,7 +85,11 @@ a + b + b = a
 - Kuten luvussa 1.1 "Security of Algorithms" mainitaan - Jos algorithmin monimutkaisuus on: 2^128, tarvitaan 2^128 operaatiota sen murtamiseen. Vaikka kone tekisi miljoona operaatiota joka sekuntti, se vie 10^19 vuotta ja todennäköisyys on 3 - kertainen U.S loton pääpotin voittamisen.
 
 
-Karvinen 2024: Python Basics for Hackers
-Vapaaehtoinen: Karvinen 2024: Get Started Micro Editor
-Vapaaehtoinen: Karvinen 2024: Getting Started with Cryptopals using Python
+### Karvinen 2024: Python Basics for Hackers
+
+
+
+
+### Vapaaehtoinen: Karvinen 2024: Get Started Micro Editor
+### Vapaaehtoinen: Karvinen 2024: Getting Started with Cryptopals using Python
 Mutta ei tietenkään niitä "click to expand" alle piilotettuja vinkkejä, niitä kannattaa katsoa vain tarvittaessa. Osa ei tarvitse niitä ollenkaan.
