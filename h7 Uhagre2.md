@@ -136,7 +136,14 @@ Eli siis muunnos on tehty, mutta käsittääkseni tuo base64 muunsi sen vasta al
 - Lähdin samalla tavalla liikkeelle tässä tehtävässä, eli syötin ```echo 1c0111001f010100061a024b53535009181c |xxd -r -ps |base64```
 - Se palautti ```HAERAB8BAQAGGgJLU1NQCRgc```
 
+![image](https://github.com/user-attachments/assets/981ece68-4431-40b4-882a-05ddda4aafc6)
+
 ## Lähteet
+Altering-File-To-Hex, Jadhusan24, Luettavissa:
+https://github.com/Jadhusan24/Python-Hex-Dump
+
+xxd Command in Linux, Last Updated : 26 Apr, 2024, Luettavissa:
+https://www.geeksforgeeks.org/xxd-command-in-linux/
 
 Python Tips and Tricks: Base64 String Encoding and Decoding, MathByte Academ, Luettavissa:
 https://www.youtube.com/watch?v=mxwvvMZaIvU
