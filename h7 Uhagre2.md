@@ -119,7 +119,7 @@ Eli siis muunnos on tehty, mutta käsittääkseni tuo base64 muunsi sen vasta al
 
 
 - Hakkasin tässä hetken päätä seinään, mutten halunnut täysin kopioida vastausta mistään. Törmäsin lopulta ```xxd``` ohjelmaan, jota käytetään datan muuntamiseen heksadesimaaliseen ja tekstimuotoon, sekä takaisin.
-- Eli asentelin ensin ```sudo apt-get install xxd``` ja sen jälkeen käytin komentoa: ```echo "`49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d" |xxd -r -ps |base64
+- Eli asentelin ensin ```sudo apt-get install xxd``` ja sen jälkeen käytin komentoa: ```echo "49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d" |xxd -r -ps |base64```
 - ![image](https://github.com/user-attachments/assets/d1661a1f-176b-4c34-88d1-ace38e2ef2bc)
 - Ja se palautti avaimen
 
