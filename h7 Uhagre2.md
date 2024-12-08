@@ -28,6 +28,19 @@ Oracle VM VirtualBox ja Debian 12 Bookworm
 
 - Cryptographic algorithm (cipher) - matemaattinen funktio encryptaamiseen sekä decryptaamiseen
 
+- M = Message, (P = Plaintext) C = Ciphertext D = Decryption E = Encryption k = avain
+
+- E(M) = C -> Encryptattu viesti on siis sama, kuin Decryptattu viesti
+- D(C) = M -> Decrypt-funktio C:lle tuottaa viestin
+- D(E(M)) = M -> Funktio palauttaa alkuperäisen viestin
+Avaimella
+- Ek(M) = C -> Lisättiin avain yhtälöön
+- Dk(C) = M 
+- Dk(Ek(M)) = M
+
+- Käytännössä siis algoritmien turvallisuus liittyy avaimiin. Ei ole väliä, vaikka joku tietää alrgoritmin - jos ei tiedä avainta, ei voi lukea viestiä
+
+- 
 1.4 Simple XOR
 1.7 Large Numbers
 Karvinen 2024: Python Basics for Hackers
