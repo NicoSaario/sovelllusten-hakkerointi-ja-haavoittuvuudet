@@ -16,7 +16,7 @@ Oracle VM VirtualBox ja Debian 12 Bookworm
 
 € Schneier 2015: Applied Cryptography, 20ed: Chapter 1: Foundations: https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/08_chap01.html#chap01-sec001
 
-1.1 Terminology ("Historical Terms" loppuun)
+### 1.1 Terminology ("Historical Terms" loppuun)
 
 - Salakirjoitus on viesti joka on muunnettu lukemattomaan muotoon
 - Message - Plaintext (cleartext)
@@ -45,10 +45,20 @@ Avaimella
 
 - Käytännössä siis algoritmien turvallisuus liittyy avaimiin. Ei ole väliä, vaikka joku tietää alrgoritmin - jos ei tiedä avainta, ei voi lukea viestiä
 
-- 
+Symmetrinen salaus:
+- Käyttää usein samaa avainta sekä salauksen, että purkamiseen. Jos tiedät, miten viesti salattiin, tiedät - miten se puretaan.
+- "Salaisen avaimen menetelmä", koska avain on pidettävä salassa molemmilla osapuolilla.
+- Haasteena avaimen turvallinen välitys vastaanottajalle
 
-1.4 Simple XOR
-1.7 Large Numbers
+Public key - Algorithms
+- Salaukseen käytetty avain ei ole sama, kuin purkuavain
+- Ei voi helposti/nopeasti laskea salausavaimesta
+- Salausavain voidaan tehdä julkiseksi - kuka tahansa voi salata viestin, !vain tietty henkilö vastaavalla purkuavaimella voi purkaa viestin!
+- Salausavain = Public key
+- Purkuavain = Private key
+
+### 1.4 Simple XOR
+### 1.7 Large Numbers
 Karvinen 2024: Python Basics for Hackers
 Vapaaehtoinen: Karvinen 2024: Get Started Micro Editor
 Vapaaehtoinen: Karvinen 2024: Getting Started with Cryptopals using Python
