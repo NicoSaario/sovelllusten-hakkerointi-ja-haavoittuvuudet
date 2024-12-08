@@ -82,7 +82,9 @@ a + b + b = a
 
 ### 1.7 Large Numbers
 - Tässä oikeestaan vain laitetaan lukuja perspektiiviin
-- Esimerkiksi "The probability of guessing a valid Bitcoin private key is 1 in 2²⁵⁶" (lähde)[https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/08_chap01.html#chap01-sec007]
+- Kuten luvussa 1.1 "Security of Algorithms" mainitaan - Jos algorithmin monimutkaisuus on: 2^128, tarvitaan 2^128 operaatiota sen murtamiseen. Vaikka kone tekisi miljoona operaatiota joka sekuntti, se vie 10^19 vuotta ja todennäköisyys on 3 - kertainen U.S loton pääpotin voittamisen.
+
+
 Karvinen 2024: Python Basics for Hackers
 Vapaaehtoinen: Karvinen 2024: Get Started Micro Editor
 Vapaaehtoinen: Karvinen 2024: Getting Started with Cryptopals using Python
