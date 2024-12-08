@@ -148,4 +148,7 @@ https://www.geeksforgeeks.org/xxd-command-in-linux/
 Python Tips and Tricks: Base64 String Encoding and Decoding, MathByte Academ, Luettavissa:
 https://www.youtube.com/watch?v=mxwvvMZaIvU
 
+XXD Command in Linux: A Must-Know for System Administrators, By Pulkit Jain, Oct 7, 2024
+https://www.simplilearn.com/xxd-command-in-linux-article
+
 
