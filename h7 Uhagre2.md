@@ -102,13 +102,16 @@ Mutta ei tietenkään niitä "click to expand" alle piilotettuja vinkkejä, niit
 ### a) 1. Convert hex to base64.
 Tässä pitää siis saada ```49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d``` muunnettua hexasta base64 - muotoon. Lopputulos pitäisi olla: ```SSdtIGtpbGxpbmcgeW91ciBicmFpbiBsaWtlIGEgcG9pc29ub3VzIG11c2hyb29t```
 
-![image](https://github.com/user-attachments/assets/2d653e96-abc1-46bb-ba03-21ef4c49705a)
 
+
+
+
+Tuli ensimmäisenä mieleen suoraa vaihtaa se yhdellä kauniilla napin painalluksella, koska netissä on näitä converttereitä pullollaan.. Mutta olisi varmaan hyödyllisempää osata tämä itse. (Käytin)[https://www.atatus.com/tools/hex-to-base64]
+![image](https://github.com/user-attachments/assets/2d653e96-abc1-46bb-ba03-21ef4c49705a)
 
 
 Jouduin käytännössä opettelemaan koko hoidon alusta alkaen, lueskelin Teron materiaaleja ja muita lisää. Päätin kokeilla ```base64.b64decode("49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d")```
 
-Tuli ensimmäisenä mieleen suoraa vaihtaa se yhdellä kauniilla napin painalluksella, koska netissä on näitä converttereitä pullollaan.. Mutta olisi varmaan hyödyllisempää osata tämä itse. (Käytin)[https://www.atatus.com/tools/hex-to-base64]
 ![image](https://github.com/user-attachments/assets/3fc6408d-30a9-464c-b7f0-a449cc4c9871)
 
 
