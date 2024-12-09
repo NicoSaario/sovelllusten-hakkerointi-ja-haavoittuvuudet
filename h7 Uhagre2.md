@@ -85,14 +85,24 @@ a + b + b = a
 - Kuten luvussa 1.1 "Security of Algorithms" mainitaan - Jos algorithmin monimutkaisuus on: 2^128, tarvitaan 2^128 operaatiota sen murtamiseen. Vaikka kone tekisi miljoona operaatiota joka sekuntti, se vie 10^19 vuotta ja todennäköisyys on 3 - kertainen U.S loton pääpotin voittamisen.
 
 
-### Karvinen 2024: Python Basics for Hackers https://terokarvinen.com/python-for-hackers/
+### (Karvinen 2024: Python Basics for Hackers)[https://terokarvinen.com/python-for-hackers/]
 Saa käyntiin ```python3```
 - Helppo tehdä laskuja, esim 2*2
 - Koodia voi suoraan testata painamalla F5 ```micro --plugin install runit```
 - Pyyttonilla voi suoraan muuttaa numerot eri muotoihin, esim ```ord("T")```, joka palauttaa arvon 84 ja ```chr(84)``` joka palauttaa 'T'. Hexan voi myös muuntaa suoraan ```hex(84)``` --> '0x54' *0 tarkoittaa hexaa, ei liity käytännössä numeroon millään tavalla*. Binääri ```bin(84)``` -> '0b1010100'. Octal ```oct(84) -> '0o124'
 - f-string -> Pistää f ennen stringiä, se tulostaa kaikki näiden sisältä {}
 
-### Vapaaehtoinen: Karvinen 2024: Get Started Micro Editor
+### (Vapaaehtoinen: Karvinen 2024: Get Started Micro Editor)[https://terokarvinen.com/get-started-micro-editor/]
+
+Tätä on tullu käytettyä jokaisella Teron aiemmalla kurssilla, joten sen käyttö alkaa olla jo suht tuttua. Tässä kuitenkin vielä tärkeimmät komennot alkuun
+
+```$ sudo apt-get update
+$ sudo apt-get -y install micro fzf exuberant-ctags
+$ micro --plugin install jump
+$ micro --plugin install palettero
+$ micro --plugin install runit
+```
+
 ### Vapaaehtoinen: Karvinen 2024: Getting Started with Cryptopals using Python
 Mutta ei tietenkään niitä "click to expand" alle piilotettuja vinkkejä, niitä kannattaa katsoa vain tarvittaessa. Osa ei tarvitse niitä ollenkaan.
 
@@ -161,17 +171,49 @@ Rakensin siis tän näkösen litanian:
 - En tätä lähde enempää selvittämään, koska ei siihen taitoja ole ja copy-paste on mielestäni aika turha ratkaisu
 
 
+> c) 3. Single-byte XOR cipher.
+> d) 4. Detect single-character XOR. Tämän tehtävän ratkaiseminen yleensä ilahduttaa.
+> e) Vapaaehtoinen, suositeltava: 5. Implement repeating-key XOR.
+> g) Vapaaehtoinen: 6. Break repeating-key XOR.
+> h) Vapaaehtoinen: 7. AES in ECB mode.
+> i) Vapaaehtoinen: 8. Detect AES in ECB mode.
+
+Tuli tuon koodaamisen kanssa vihdoin seinä vastaan, eikä itselläni riitä tällä kertaa siihen rahkeet. Pyrin palaamaan näihin tehtäviin sen jälkeen, kun oikeasti ymmärrän jotain, mutta luultavemmin vasta kurssin jo päätyttyä.
+
+
 ## Lähteet
 Altering-File-To-Hex, Jadhusan24, Luettavissa:
-https://github.com/Jadhusan24/Python-Hex-Dump
+https://github.com/Jadhusan24/Python-Hex-Dump (Luettu 08/12/2024)
 
 xxd Command in Linux, Last Updated : 26 Apr, 2024, Luettavissa:
-https://www.geeksforgeeks.org/xxd-command-in-linux/
+https://www.geeksforgeeks.org/xxd-command-in-linux/ (Luettu 08/12/2024)
 
 Python Tips and Tricks: Base64 String Encoding and Decoding, MathByte Academ, Luettavissa:
-https://www.youtube.com/watch?v=mxwvvMZaIvU
+https://www.youtube.com/watch?v=mxwvvMZaIvU (Katsottu 08/12/2024)
 
 XXD Command in Linux: A Must-Know for System Administrators, By Pulkit Jain, Oct 7, 2024
-https://www.simplilearn.com/xxd-command-in-linux-article
+https://www.simplilearn.com/xxd-command-in-linux-article (luettu 08/12/2024))
+
+XOR Two Strings in Python: A Comprehensive, Code-Focused Guide, By Linux Code / November 5, 2023
+https://thelinuxcode.com/xor-two-strings-python/ (luettu 08/12/2024)
+
+base64 — Base16, Base32, Base64, Base85 Data Encodings¶, Luettavissa:
+https://docs.python.org/3/library/base64.html#base64.b64encode (luettu 08/12/2024)
+
+How to use base64.b64decode() in Python
+https://www.educative.io/answers/how-to-use-base64b64decode-in-python (Luettu 08/12/2024)
+
+https://www.w3schools.com/python/
+
+Get Started Micro Editor,  Tero Karvinen, 2024-12-02, Luettavissa:
+https://terokarvinen.com/get-started-micro-editor/, (Luettu 08/12/2024)
 
 
+Getting Started with Cryptopals using Python, Tero Karvinen, Mon 2024-12-02, Luettavissa:
+https://terokarvinen.com/getting-started-python-cryptopals/ (Luettu 08/12/2024)
+
+Applied Cryptography: Protocols, Algorithms and Source Code in C, 20th Anniversary Edition, Schneier 2015, Luettavissa: 
+https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/08_chap01.html#chap01-sec001 (Luettu 08/12/2024)
+
+
+Python Basics for Hackers, Tero Karvinen,  Mon 2024-12-02, Luettavissa: https://terokarvinen.com/python-for-hackers/ (Luettu 08/12/2024)
