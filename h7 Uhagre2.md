@@ -152,6 +152,15 @@ Rakensin siis tän näkösen litanian:
 
 > bytes(a ^ b for a, b in zip(bytes1, bytes2)): Tämä luo uuden tavujonon, jossa jokaiselle tavulle suoritetaan XOR-operaatio a (bytes1) ja b (bytes2) välillä.
 
+![image](https://github.com/user-attachments/assets/a347aea1-2d36-453e-b10d-59478f7b2877)
+
+- Tein vielä tarkistukset tuohon ja näyttää, ettei se tulosta jokaista kirjainta. Tulosteesta puuttuu 5
+
+![image](https://github.com/user-attachments/assets/97d69b03-1edf-4b72-a112-41400017bbfa)
+
+- En tätä lähde enempää selvittämään, koska ei siihen taitoja ole ja copy-paste on mielestäni aika turha ratkaisu
+
+
 ## Lähteet
 Altering-File-To-Hex, Jadhusan24, Luettavissa:
 https://github.com/Jadhusan24/Python-Hex-Dump
