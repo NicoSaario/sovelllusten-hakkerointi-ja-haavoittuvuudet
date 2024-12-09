@@ -217,3 +217,5 @@ https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119
 
 
 Python Basics for Hackers, Tero Karvinen,  Mon 2024-12-02, Luettavissa: https://terokarvinen.com/python-for-hackers/ (Luettu 08/12/2024)
+
+ChatGPT
