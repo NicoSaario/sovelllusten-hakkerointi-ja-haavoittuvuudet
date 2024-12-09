@@ -106,6 +106,7 @@ $ micro --plugin install runit
 ### Vapaaehtoinen: Karvinen 2024: Getting Started with Cryptopals using Python
 Mutta ei tietenkään niitä "click to expand" alle piilotettuja vinkkejä, niitä kannattaa katsoa vain tarvittaessa. Osa ei tarvitse niitä ollenkaan.
 
+- Luin, en avannu niitä spoilereita. Yritin ilman, avasin lopuks - ei ollu apua
 
 ## Ratkaise CryptoPals Set 1 -haasteet. Tehtävät saa ratkaista millä vain ohjelmointikielellä ja käyttää mitä tahansa tekstieditoria tai IDE:ä. Tehtäviä ei kannata ratkaista tekoälyllä, koska se vain kopioi malliratkaisun suoraan koulutusmateriaalistaan.
 
