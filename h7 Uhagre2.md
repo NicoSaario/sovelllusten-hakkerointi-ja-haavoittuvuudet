@@ -146,7 +146,11 @@ Olin testannut niin montaa eri variaatiota tuossa aikaisemmassa tehtävässä, e
 Rakensin siis tän näkösen litanian: 
 
 - Eli ymmärsin, että tarvii taas tehdä base64 juttuja, jotka skippasin tossa aikaisemmassa tehtävässsä. En kuitenkaan ymmärtäny sitä koodia, mikä tarvitaan tohon XOR - operaatioon, joka muuttaa tavuiksi, joten jouduin konsultoimaan ChatGPT:tä avuksi.
-- 
+- Lopulta koodi näytti tältä:
+
+![image](https://github.com/user-attachments/assets/9f70ad14-a70b-4af8-87b2-e156b8a5f877)
+
+> bytes(a ^ b for a, b in zip(bytes1, bytes2)): Tämä luo uuden tavujonon, jossa jokaiselle tavulle suoritetaan XOR-operaatio a (bytes1) ja b (bytes2) välillä.
 
 ## Lähteet
 Altering-File-To-Hex, Jadhusan24, Luettavissa:
