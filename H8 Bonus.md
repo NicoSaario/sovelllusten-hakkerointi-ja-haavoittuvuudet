@@ -16,6 +16,7 @@ Esimerkiksi lipunryöstöissä sovellusten hakkeroinnista
 
 
 Vapaaehtoiset tehtävät:
+
 h) ja g) https://github.com/NicoSaario/sovellusten-hakkerointi-ja-haavoittuvuudet/blob/main/h2%20Break%20%26%20unbreak.md (pohjalla)
 
 h) ja i) https://github.com/NicoSaario/sovellusten-hakkerointi-ja-haavoittuvuudet/blob/main/h4%20K%C3%A4%C3%A4nt%C3%B6paikka.md
