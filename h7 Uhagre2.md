@@ -150,7 +150,7 @@ Rakensin siis tän näkösen litanian:
 
 ![image](https://github.com/user-attachments/assets/9f70ad14-a70b-4af8-87b2-e156b8a5f877)
 
-> bytes(a ^ b for a, b in zip(bytes1, bytes2)): Tämä luo uuden tavujonon, jossa jokaiselle tavulle suoritetaan XOR-operaatio a (bytes1) ja b (bytes2) välillä.
+> bytes(a ^ b for a, b in zip(bytes1, bytes2)): Tämä luo uuden tavujonon, jossa jokaiselle tavulle suoritetaan XOR-operaatio a (bytes1) ja b (bytes2) välillä. - ChatGPT
 
 ![image](https://github.com/user-attachments/assets/a347aea1-2d36-453e-b10d-59478f7b2877)
 
