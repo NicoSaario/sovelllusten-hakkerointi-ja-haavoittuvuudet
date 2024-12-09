@@ -142,6 +142,12 @@ Tässä vielä hetken aikaa ihmettelin, ettei tuo -n - komento tee mitään. Kok
 
 ![image](https://github.com/user-attachments/assets/981ece68-4431-40b4-882a-05ddda4aafc6)
 
+Olin testannut niin montaa eri variaatiota tuossa aikaisemmassa tehtävässä, että lähdin kokeilemaan suoraa sen ratkaisua. En kuitenkaan yhtään ymmärtäny sitä, miten se XOR - operaatio tehdään koodina, koska ei tosiaan ohjelmoinnista vieläkään oo muuta tietoo, kun Pythonin ihan perusteet.
+Rakensin siis tän näkösen litanian: 
+
+- Eli ymmärsin, että tarvii taas tehdä base64 juttuja, jotka skippasin tossa aikaisemmassa tehtävässsä. En kuitenkaan ymmärtäny sitä koodia, mikä tarvitaan tohon XOR - operaatioon, joka muuttaa tavuiksi, joten jouduin konsultoimaan ChatGPT:tä avuksi.
+- 
+
 ## Lähteet
 Altering-File-To-Hex, Jadhusan24, Luettavissa:
 https://github.com/Jadhusan24/Python-Hex-Dump
